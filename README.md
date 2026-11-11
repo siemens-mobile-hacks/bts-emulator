@@ -7,7 +7,7 @@ docker compose up -d
 docker compose down
 ```
 
-- Run the emulator with `--gsm-trxmux 127.0.0.1:5750`; one emulator per cell, up to 10 cells.
+- Run the emulator with `--gsm-trxmux 127.0.0.1:5750`; one emulator per cell, up to 24 cells.
 - Settings are in `.env.default`: trxmux address and port, operator code, number of cells, GPRS ciphering, SIM key, phone number prefix, settings by SMS.
   Override them in `.env`.
 - SIM IMSIs start with the operator code; the emulator uses `001010000001000` by default, give other emulators `--sim-imsi 001010000001001` and so on.

@@ -33,8 +33,7 @@ HYPERFRAME_FRAMES = 2715648
 FRAME_NUMERATOR_NS = 60_000_000
 FRAME_DENOMINATOR = 13
 FRAME_NS = FRAME_NUMERATOR_NS / FRAME_DENOMINATOR
-CELL_PORT_STRIDE = 10
-BTS_PORT_OFFSET = 100
+TRX_PORTS = 3
 CLOCK_INDICATION_FRAMES = 26
 TICK_FRAMES = 4
 # The emulator transmits a frame about two frames after it reports the previous one complete.
@@ -68,8 +67,8 @@ class Cell:
         self.clock_fn = None
         self.uplink_fn = None
         self.uplink_received = set()
-        port = base_port + index * CELL_PORT_STRIDE
-        self.sockets = [open_socket(address, port + i, port + BTS_PORT_OFFSET + i) for i in range(3)]
+        port = base_port + index * 2 * TRX_PORTS
+        self.sockets = [open_socket(address, port + i, port + TRX_PORTS + i) for i in range(TRX_PORTS)]
         mux.loop.add_reader(self.sockets[CONTROL], self.read_control)
         mux.loop.add_reader(self.sockets[DATA], self.read_downlink)
 

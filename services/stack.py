@@ -10,17 +10,16 @@ import re
 CONFIG_DIR = "/etc/osmocom"
 FIRST_ARFCN = 5
 ARFCN_STEP = 5
+LAST_GSM900_ARFCN = 124
+MAX_CELLS = (LAST_GSM900_ARFCN - FIRST_ARFCN) // ARFCN_STEP + 1
 FIRST_UNIT_ID = 1800
 FIRST_BVCI = 2
 FIRST_NSEI = 101
 FIRST_NSVC_PORT = 23010
 TRX_BASE_PORT = 6700
-TRX_CELL_PORT_STRIDE = 10
-TRX_BTS_PORT_OFFSET = 100
-MAX_CELLS = TRX_BTS_PORT_OFFSET // TRX_CELL_PORT_STRIDE
-FIRST_PCU_VTY_PORT = 42400
-FIRST_BTS_VTY_PORT = FIRST_PCU_VTY_PORT + MAX_CELLS
-FIRST_BTS_CTRL_PORT = 42380
+TRX_PORTS = 3
+FIRST_CELL_TCP_PORT = 42380
+CELL_TCP_PORTS = 3
 MSISDN_SUBSCRIBER_DIGITS = 9
 
 SGSN_CIPHERING = """ auth-policy remote
@@ -62,7 +61,8 @@ def imsi_to_msisdn(imsi):
 
 
 def cell_values(cell):
-    trx_port = TRX_BASE_PORT + cell * TRX_CELL_PORT_STRIDE
+    trx_port = TRX_BASE_PORT + cell * 2 * TRX_PORTS
+    tcp_port = FIRST_CELL_TCP_PORT + cell * CELL_TCP_PORTS
     return {
         "CELL": cell,
         "ARFCN": FIRST_ARFCN + cell * ARFCN_STEP,
@@ -71,10 +71,10 @@ def cell_values(cell):
         "NSEI": FIRST_NSEI + cell,
         "NSVC_PORT": FIRST_NSVC_PORT + cell,
         "TRX_REMOTE_PORT": trx_port,
-        "TRX_LOCAL_PORT": trx_port + TRX_BTS_PORT_OFFSET,
-        "BTS_VTY_PORT": FIRST_BTS_VTY_PORT + cell,
-        "BTS_CTRL_PORT": FIRST_BTS_CTRL_PORT + cell,
-        "PCU_VTY_PORT": FIRST_PCU_VTY_PORT + cell,
+        "TRX_LOCAL_PORT": trx_port + TRX_PORTS,
+        "BTS_CTRL_PORT": tcp_port,
+        "BTS_VTY_PORT": tcp_port + 1,
+        "PCU_VTY_PORT": tcp_port + 2,
     }
 
 
