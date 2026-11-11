@@ -1,4 +1,4 @@
-include "/etc/osmocom/operator-proxies.nft"
+include "/run/operators/operator-proxies.nft"
 
 define PROXY_HOSTS_ADDRESS = 192.0.2.1
 define MMSC_HOSTS_ADDRESS = 192.0.2.2

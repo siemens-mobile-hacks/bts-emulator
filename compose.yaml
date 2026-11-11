@@ -19,7 +19,7 @@ services:
     pull_policy: build
     restart: unless-stopped
     init: true
-    command: sh -c "nft -f /etc/osmocom/nat.nft && exec sleep infinity"
+    command: sh -c "python3 /opt/services/operator_config.py /run/operators && nft -f /etc/osmocom/nat.nft && exec sleep infinity"
     cap_add:
       - NET_ADMIN
     sysctls:
@@ -28,6 +28,7 @@ services:
       - ${TRXMUX_ADDRESS:-127.0.0.1}:${TRXMUX_PORT:-5750}:5750/udp
     volumes:
       - ./config:/etc/osmocom:ro
+      - ./services:/opt/services:ro
   stp:
     <<: *osmocom
     command: osmo-stp -c /etc/osmocom/osmo-stp.cfg
@@ -65,12 +66,13 @@ services:
       - mmsc-state:/var/lib/mmsc
   squid:
     <<: *osmocom
-    command: squid -N -d 1 -f /etc/osmocom/squid.conf
+    command: sh -c "python3 /opt/services/operator_config.py /run/operators && exec squid -N -d 1 -f /etc/osmocom/squid.conf"
   dns:
     <<: *osmocom
     command: >-
-      sh -c 'sed -n "s|^[^#].*|address=/&/192.0.2.1|p" /etc/osmocom/operator-proxy-hosts.txt > /run/dnsmasq-operators.conf
-      && sed -n "s|^[^#].*|address=/&/192.0.2.2|p" /etc/osmocom/operator-mmsc-domains.txt >> /run/dnsmasq-operators.conf
+      sh -c 'python3 /opt/services/operator_config.py /run/operators
+      && sed "s|.*|address=/&/192.0.2.1|" /run/operators/operator-proxy-hosts.txt > /run/dnsmasq-operators.conf
+      && sed "s|.*|address=/&/192.0.2.2|" /run/operators/operator-mmsc-domains.txt >> /run/dnsmasq-operators.conf
       && exec dnsmasq -k -C /etc/osmocom/dnsmasq.conf'
   bearerbox:
     <<: *osmocom
