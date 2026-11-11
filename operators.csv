@@ -1,0 +1,1134 @@
+mcc,mnc,variant,profile,kind,homepage,mmsc,proxy,apn,user,password
+1,1,,test sim,WAP,http://wap.tim.it,,,wap.tim.it,waptim,waptim
+202,1,,Cosmote WAP,WAP,http://wap.cosmotemyview.gr,,10.10.10.10:8080,wap,,
+202,1,,Cosmote MMS,MMS,,http://195.167.65.220:8002,10.10.10.20:9201,mms,,
+202,1,,Cosmote GPRS,DATA,,,,wap,,
+202,5,,Vodafone GPRS,WAP,http://wapplus.vodafone.gr,,213.249.19.49:5080,wap.vodafone.gr,user,pass
+202,5,,Vf live!,WAP,http://live.vodafone.com,,213.249.19.49:5080,wap.vodafone.gr,user,pass
+202,5,,Vf live! Prepay,WAP,http://live.vodafone.com,,213.249.19.49:5080,wapkarta.vodafone.gr,user,pass
+202,5,,Vodafone Internet,WAP,http://www.vodafone.gr,,,internet.vodafone.gr,user,pass
+202,5,,Vodafone MMS,MMS,,http://mms.vodafone.gr,213.249.19.49:9201,mms.vodafone.net,user,pass
+202,5,,Vf live! Prepaid,DATA,,,213.249.19.49:5080,wapkarta.vodafone.gr,user,pass
+202,9,,Q-GPRS,WAP,http://wap.myq.gr,,,q-wap.myq.gr,,
+202,9,,Q-MMS,MMS,,http://mms.myq.gr,192.168.80.134:9201,q-mms.myq.gr,,
+202,10,,WIND Plus,WAP,http://portal.wind.com.gr,,192.168.200.10:9401,gwap.b-online.gr,,
+202,10,,WIND MMS,MMS,,http://192.168.200.95/servlets/mms,192.168.200.11:9401,mnet.b-online.gr,,
+202,10,,WIND TV,DATA,,,,timgr.tv,,
+204,2,,Tele2 GPRS,WAP,http://wap.tele2.nl,,130.244.196.90:8080,internet.tele2.nl,,
+204,2,,Tele2 MMS,MMS,,http://mmsc.tele2.nl,193.12.40.64:8080,internet.tele2.nl,,
+204,4,,Vodafone Live!,WAP,http://live.vodafone.com,,192.168.251.150:8799,live.vodafone.com,vodafone,vodafone
+204,4,,Vodafone MMS,MMS,,http://mmsc.mms.vodafone.nl,192.168.251.150:8799,live.vodafone.com,vodafone,vodafone
+204,4,,Vodafone GPRS,DATA,,,192.168.251.150:8799,live.vodafone.com,vodafone,vodafone
+204,8,,Mobiel Internet,WAP,http://mobileportal/,,10.10.100.20:5080,portalmmm.nl,,
+204,8,,Rabo Mobiel Int.,WAP,http://wap.rabomobiel.nl,,,rabo,,
+204,8,,KPN MMS,MMS,,http://mp.mobiel.kpn/mmsc,10.10.100.20:5080,portalmmm.nl,,
+204,8,,Rabo Mobiel MMS,MMS,,http://mp.mobiel.kpn/mmsc,10.10.100.10:5080,rabo,,
+204,8,,KPN Streaming,DATA,,,10.10.100.11:554,portalmmm.nl,,
+204,12,,Telfort Spot,WAP,http://wap.telfort.nl,,193.113.200.195:8080,internet,,
+204,12,,AH Mobiel Internet,WAP,http://wap.ah.nl/,,193.113.200.195:8080,multimedia.ah.nl,,
+204,12,,Telfort MMS,MMS,,http://mms,193.113.200.195:8080,internet,,
+204,12,,AH Mobiel MMS,MMS,,http://mms,193.113.200.195:8080,multimedia.ah.nl,,
+204,12,MVNO_NETHELAND_AH,AH Mobiel Internet,WAP,http://wap.ah.nl/,,193.113.200.195:8080,multimedia.ah.nl,,
+204,12,MVNO_NETHELAND_AH,AH Mobiel MMS,MMS,,http://mms,193.113.200.195:8080,multimedia.ah.nl,,
+204,12,MVNO_NETHELAND_TELFORT,Telfort Spot,WAP,http://wap.telfort.nl,,193.113.200.195:8080,internet,,
+204,12,MVNO_NETHELAND_TELFORT,Telfort MMS,MMS,,http://mms,193.113.200.195:8080,internet,,
+204,16,,t-zones,WAP,http://www.t-zones.nl,,,internet,,
+204,16,,T-Mobile MMS,MMS,,http://t-mobilemms,10.10.10.11:8080,mms,tmobilemms,tmobilemms
+204,16,,T-Mobile Internet,DATA,,,,internet,,
+204,16,OPERATOR_NETHERLAND_TMOBILE_WNW_GPRS,web'n'walk,WAP,http://pda.t-mobile.nl,,,internet,,
+204,16,OPERATOR_NETHERLAND_TMOBILE_WNW_GPRS,T-Mobile MMS,MMS,,http://t-mobilemms,10.10.10.11:8080,mms,tmobilemms,tmobilemms
+204,16,OPERATOR_NETHERLAND_TMOBILE_WNW_GPRS,T-Mobile Internet,DATA,,,,internet,,
+204,20,,Orange World,WAP,http://wap.orange.nl/,,10.250.255.188:5080,wap,0628000000,PASSWORD
+204,20,,Orange MMS,MMS,,http://mms.orange.nl:8002,10.250.255.183:5080,mms,,
+204,20,,T-Mobile Internet,DATA,,,,internet,,
+204,20,OPERATOR_NETHERLAND_TMOBILE_WNW_GPRS,T-Mobile Internet,DATA,,,,internet,,
+206,1,,Px Live,WAP,http://live.vodafone.com,,10.253.7.3:8080,wap.proximus.be,wap,wap
+206,1,,Px MMS,MMS,,http://mmsc.proximus.be/mms,10.55.14.75:8080,event.proximus.be,mms,mms
+206,10,,Orange World,WAP,http://wap.mobistar.be,,212.65.63.143:8080,mworld.be,,
+206,10,,VOX GPRS,WAP,http://wap.vox.lu,,212.88.139.44:8080,vox.lu,,
+206,10,,Mobistar MMS,MMS,,http://mmsc.mobistar.be,212.65.63.143:8080,mms.be,,
+206,10,,VOX MMS,MMS,,http://mms.vox.lu,212.88.139.44:8080,vox.lu,,
+206,10,,Mobistar TV Video,DATA,,,,mworld.be,,
+206,10,OP_BELGIUM_MOBISTAR,Orange World,WAP,http://wap.mobistar.be,,212.65.63.143:8080,mworld.be,,
+206,10,OP_BELGIUM_MOBISTAR,Mobistar MMS,MMS,,http://mmsc.mobistar.be,212.65.63.143:8080,mms.be,,
+206,20,,Base WAP,WAP,http://wap.base.be,,172.31.198.37:5080,gprs.base.be,base,base
+206,20,,BASE MMS,MMS,,http://mmsc.base.be,217.72.235.1:8080,mms.base.be,base,base
+206,20,,BASE GPRS,DATA,,,,gprs.base.be,,
+208,1,,Orange World,WAP,http://www.orange.fr,,192.168.10.100:8080,orange,orange,orange
+208,1,,Orange Entreprises,WAP,http://accueil.orangemib.net,,172.16.2.8:8000,orange-mib,,
+208,1,,Virgin Mobile WAP,WAP,http://wap.virginmobile.fr,,192.168.10.100:8080,ofnew.fr,orange,orange
+208,1,,Carrefour WAP,WAP,http://wap.carrefourmobile.fr,,192.168.10.100:8080,ofnew.fr,orange,orange
+208,1,,Orange MMS,MMS,,http://mms.orange.fr,192.168.10.200:8080,orange.acte,orange,orange
+208,1,,Virgin mobile MMS,MMS,,http://mms.orange.fr/,192.168.10.200:8080,orange.acte,orange,orange
+208,1,,MMS Carrefour,MMS,,http://mms.orange.fr,192.168.10.200:8080,orange.acte,orange,orange
+208,1,,NRJMMS,MMS,,http://mms.orange.fr,192.168.10.200:8080,orange.acte,orange,orange
+208,1,,Orange WAP,DATA,,,192.168.10.100:8080,orange,orange,orange
+208,1,MVNO_FRANCE_CARREFOUR,Carrefour WAP,WAP,http://wap.carrefourmobile.fr,,192.168.10.100:8080,ofnew.fr,orange,orange
+208,1,MVNO_FRANCE_CARREFOUR,MMS Carrefour,MMS,,http://mms.orange.fr,192.168.10.200:8080,orange.acte,orange,orange
+208,1,MVNO_FRANCE_NRJ,NRJWAP,WAP,http://wap.nrjmobile.com,,192.168.10.100:8080,ofnew.fr,orange,orange
+208,1,MVNO_FRANCE_NRJ,NRJWEB,WAP,http://wap.nrjmobile.com,,,ofnew.fr,orange,orange
+208,1,MVNO_FRANCE_NRJ,NRJMMS,MMS,,http://mms.orange.fr,192.168.10.200:8080,orange.acte,orange,orange
+208,1,MVNO_FRANCE_VIRGIN,Virgin Mobile WAP,WAP,http://wap.virginmobile.fr,,192.168.10.100:8080,ofnew.fr,orange,orange
+208,1,MVNO_FRANCE_VIRGIN,Virgin mobile MMS,MMS,,http://mms.orange.fr/,192.168.10.200:8080,orange.acte,orange,orange
+208,1,OPERATOR_FRANCE_ORANGE_GPRS,Orange World,WAP,http://www.orange.fr,,192.168.10.100:8080,orange,orange,orange
+208,1,OPERATOR_FRANCE_ORANGE_GPRS,Orange MMS,MMS,,http://mms.orange.fr,192.168.10.200:8080,orange.acte,orange,orange
+208,10,,Vodafone live!,WAP,http://wap.sdp.sfr.fr,,195.115.25.129:8080,wapsfr,,
+208,10,,A-MOBILE WAP65 GPRS,WAP,http://wap.auchantelecom.fr,,192.168.21.8:9201,wap65,,
+208,10,,NRJ WAP,WAP,http://wap.nrjmobile.com,,192.168.21.5:8080,wapnrj,,
+208,10,,WAP MOBISUD,WAP,http://wap.mobisud.fr,,192.168.21.7:8080,wap62,,
+208,10,,Neuf WAP GPRS,WAP,http://wap.neufmobile.com,,192.168.21.1:8080,wapneuf,,
+208,10,,SFR MMS,MMS,,http://mms1,10.151.0.1:8080,mmssfr,,
+208,10,,NRJ MMS,MMS,,http://mmsnrj,10.143.156.5:8080,mmsnrj,,
+208,10,,A-MOBILE MMS65,MMS,,http://mms65,10.143.156.8:8080,mms65,,
+208,10,,MMS MOBISUD,MMS,,http://mms62,10.143.156.7:8080,mms62,,
+208,10,,Neuf MMS,MMS,,http://mmsneuf,10.143.156.1:8080,mmsneuf,,
+208,10,,Internet Mobile,DATA,,,,wapsfr,,
+208,10,,NRJWAP,DATA,,,192.168.21.5:8080,wapnrj,,
+208,10,,WAP SFR GPRS,DATA,,,195.115.25.129:8080,wapsfr,,
+208,10,MVNO_FRANCE_AMOBILE,A-MOBILE WAP65 GPRS,WAP,http://wap.auchantelecom.fr,,192.168.21.8:9201,wap65,,
+208,10,MVNO_FRANCE_AMOBILE,A-MOBILE MMS65,MMS,,http://mms65,10.143.156.8:8080,mms65,,
+208,10,MVNO_FRANCE_MOBISUD,WAP MOBISUD,WAP,http://wap.mobisud.fr,,192.168.21.7:8080,wap62,,
+208,10,MVNO_FRANCE_MOBISUD,MMS MOBISUD,MMS,,http://mms62,10.143.156.7:8080,mms62,,
+208,10,MVNO_FRANCE_NRJ,NRJWAP,WAP,http://wap.nrjmobile.com,,192.168.21.5:8080,wapnrj,,
+208,10,MVNO_FRANCE_NRJ,NRJWEB,WAP,http://wap.nrjmobile.com,,,internetnrj,,
+208,10,MVNO_FRANCE_NRJ,NRJ MMS,MMS,,http://mmsnrj,10.143.156.5:8080,mmsnrj,,
+208,20,,Bouygtel WAP,WAP,http://wap.bouygtel.fr,,62.201.129.226:8080,mmsbouygtel.com,,
+208,20,,Bouygtel Internet,WAP,http://wap.bouygtel.fr,,,ebouygtel.com,,
+208,20,,Bouygtel MMS,MMS,,http://mms.bouyguestelecom.fr/mms/wapenc,62.201.129.226:8080,mmsbouygtel.com,,
+208,20,,Bouygtel Streaming,DATA,,,62.201.140.40:554,mmsbouygtel.com,,
+214,1,,Vodafone live!,WAP,http://live.vodafone.com,,212.73.32.10:80,airtelwap.es,wap@wap,wap125
+214,1,,MMS VODAFONE,MMS,,http://mmsc.vodafone.es/servlets/mms,212.73.32.10:80,mms.vodafone.net,wap@wap,wap125
+214,2,,movistar emociÃ³n,WAP,http://wap.movistar.com,,10.138.255.129:8080,wap.movistar.es,movistar,movistar
+214,3,,OrangeWorld,WAP,http://wap.orange.es,,10.132.61.10:8080,orangeworld,orange,orange
+214,3,,Orange MMS,MMS,,http://mms.orange.es,172.22.188.25:8080,orangemms,orange,orange
+214,4,,Yoigo Navegador,WAP,http://movil.yoigo.es,,10.8.0.36:8080,internet,,
+214,4,,Yoigo MMS,MMS,,http://mmss/,193.209.134.141:80,mms,,
+214,7,,movistar emociÃ³n,WAP,http://wap.movistar.com,,10.138.255.129:8080,wap.movistar.es,WAPTM,WAPTM
+214,7,,movistar MMS,MMS,,http://mms.movistar.com,10.138.255.5:8080,mms.movistar.es,MOVISTAR@mms,MOVISTAR
+214,8,,Euskaltel,WAP,http://portal.euskaltel.mobi,,172.16.18.74:8080,euskaltelwap.euskaltel.mobi,CLIENTE,EUSKALTEL
+214,8,,Euskaltel MMS,DATA,,,172.16.18.74:8080,euskaltelmms.euskaltel.mobi,MMS,EUSKALTEL
+216,1,,Pannon W@P 2.0,WAP,http://wap.pannon.hu/index.wml,,84.225.255.1:8080,wap,,
+216,1,,Pannon W@P 1.0,WAP,http://wap.pannon.hu/index.wml,,84.225.255.1:9201,wap,,
+216,1,,PANNON MMS 2.0,MMS,,http://mmsc.pgsm.hu/,84.225.255.1:8080,mms,,
+216,1,,PANNON MMS 1.0,MMS,,http://mmsc.pgsm.hu/,84.225.255.1:9201,mms,,
+216,1,,Pannon W@P,DATA,,,,wap,,
+216,30,,t-zones WAP,WAP,http://wap.t-zones.hu,,212.51.126.2:8080,wap,wap,Wap
+216,30,,t-zones NET,WAP,http://wap.t-zones.hu,,,internet,,
+216,30,,web'n'walk,WAP,http://www.webnwalk.hu,,,wnw,,
+216,30,,T-Mobile MMS,MMS,,http://mms.t-mobile.hu/servlets/mms,212.51.126.10:8080,mms,mms,mms
+216,30,,T-Mobile NET,DATA,,,,internet,,
+216,30,OPERATOR_HUNGARY_TMOBILE_WAP_WNW_GPRS,web'n'walk,WAP,http://www.webnwalk.hu,,,wnw,,
+216,30,OPERATOR_HUNGARY_TMOBILE_WAP_WNW_GPRS,T-Mobile MMS,MMS,,http://mms.t-mobile.hu/servlets/mms,212.51.126.10:8080,mms,mms,mms
+216,30,OPERATOR_HUNGARY_TMOBILE_WAP_WNW_GPRS,T-Mobile NET,DATA,,,,internet,,
+216,70,,Vodafone Live!,WAP,http://live.vodafone.com,,10.9.8.7:8080,wap.vodafone.net,vodawap,vodawap
+216,70,,Vodafone Live! VitaMAX,WAP,http://live.vodafone.com,,10.9.8.7:8080,vitamax.wap.vodafone.net,vodawap,vodawap
+216,70,,Vodafone Live! Internet VitaMAX,WAP,http://live.vodafone.com,,,vitamax.internet.vodafone.net,vodawap,vodawap
+216,70,,Vodafone Live! Internet,WAP,http://live.vodafone.com,,,internet.vodafone.net,vodawap,vodawap
+216,70,,Vodafone MMS,MMS,,http://mms.vodafone.hu/servlets/mms,80.244.97.2:8080,mms.vodafone.net,,
+216,70,,Vf Internet,DATA,,,10.9.8.7:8080,internet.vodafone.net,vodawap,vodawap
+216,70,,Vf Internet VitaMAX,DATA,,,10.9.8.7:8080,vitamax.internet.vodafone.net,vodawap,vodawap
+216,70,,Vf Streaming,DATA,,,,wap.vodafone.net,,
+216,70,,Vf Streaming VitaMAX,DATA,,,,vitamax.wap.vodafone.net,,
+218,3,,ERONET GPRS,WAP,http://wap.eronet.ba,,,gprs.eronet.ba,,
+218,3,,ERONET WAP,WAP,http://wap.eronet.ba,,10.12.3.10:8080,wap.eronet.ba,,
+218,3,,MMS-ERONET,MMS,,http://mms.gprs.eronet.ba/mms/wapenc,10.12.3.11:8080,mms.eronet.ba,,
+218,5,,mtelgprs1,WAP,http://wap.mtel.ba,,192.168.61.10:80,mtelgprs1,,
+218,5,,mtelgprs2,WAP,http://wap.mtel.ba,,192.168.61.10:80,mtelgprs2,,
+218,5,,mtelgprs3,WAP,http://wap.mtel.ba,,192.168.61.10:80,mtelgprs3,,
+218,5,,mtelgprs4,WAP,http://wap.mtel.ba,,192.168.61.10:80,mtelgprs4,,
+218,5,,mtelfun,WAP,http://wap.mtel.ba,,192.168.61.10:80,mtelfun,,
+218,5,,mtelmms,MMS,,http://mms.mtel.ba/mms/wapenc,192.168.61.11:80,mtelmms,,
+218,90,,BHMobileWAP,WAP,http://wap.bhmobile.ba,,195.222.56.41:8080,active.bhmobile.ba,,
+218,90,,BHMobileInternet,WAP,http://wap.bhtelecom.ba,,,active.bhmobile.ba,,
+218,90,,BHMobileMMS,MMS,,http://mms.bhmobile.ba/cmmsc/post,195.222.56.41:8080,mms.bhmobile.ba,,
+219,1,,t-zones,WAP,http://wap.t-zones.hr,,10.12.0.3:8080,www.htgprs.hr,,
+219,1,,T-Mobile Internet,WAP,http://www.t-mobile.hr/wnw,,,web.htgprs,,
+219,1,,TM HR MMS,MMS,,http://mms.t-mobile.hr/servlets/mms,10.12.0.4:8080,mms.htgprs,,
+219,1,OPERATOR_CROATIA_TMOBILE_WNW_GPRS,T-Mobile Internet,WAP,http://www.t-mobile.hr/wmw,,,web.htgprs,,
+219,1,OPERATOR_CROATIA_TMOBILE_WNW_GPRS,TM HR MMS,MMS,,http://mms.t-mobile.hr/servlets/mms,10.12.0.4:8080,mms.htgprs,,
+219,10,,Vip Start,WAP,http://live.vip.hr,,212.91.99.91:8080,gprs0.vipnet.hr,38591,38591
+219,10,,Broadband,WAP,http://live.vip.hr,,212.91.99.91:8080,data.vip.hr,38591,38591
+219,10,,Vip MMS,MMS,,http://mms.vipnet.hr/servlets/mms,212.91.99.91:8080,mms.vipnet.hr,,
+220,1,,Telenor GPRS,WAP,http://wap.telenor.co.yu,,217.65.192.33:8080,internet,telenor,gprs
+220,1,,Telenor MMS,MMS,,http://mms.telenor.co.yu/servlets/mms,217.65.192.33:8080,mms,,
+220,2,,ProGPRS,WAP,http://pmi.promonte.com,,192.168.246.5:9201,gprs.promonte.com,gprs,gprs
+220,3,,mt:s mondo,WAP,http://wap.mts064.telekom.yu,,172.17.88.198:8080,gprswap,mts,064
+220,3,,mt:s mms,MMS,,http://mms.mts064.telekom.yu/mms/wapenc,172.17.85.131:8080,mms,mts,64
+220,3,,mt:s gprs,DATA,,,172.17.88.198:8080,gprswap,mts,064
+220,4,,t-zones,WAP,http://wap.t-zones-cg.com,,10.0.5.19:8080,internet-prepaid,38167,38167
+220,4,,T-Mobile MMS,MMS,,http://192.168.180.100/servlets/mms,10.0.5.19:8080,mms,38267,38267
+220,4,OPERATOR_SERBIAMONTENEGRO_TMOBILE_POSTPAID_WNW,T-Mobile Internet,WAP,http://www.t-mobile-cg.com/wnw,,10.0.5.19:8080,internet-postpaid,38167,38167
+220,4,OPERATOR_SERBIAMONTENEGRO_TMOBILE_POSTPAID_WNW,T-Mobile MMS,MMS,,http://192.168.180.100/servlets/mms,10.0.5.19:8080,mms,38267,38267
+220,4,OPERATOR_SERBIAMONTENEGRO_TMOBILE_PREPAID_WNW,T-Mobile Internet,WAP,http://www.t-mobile-cg.com/wnw,,10.0.5.19:8080,internet-prepaid,38167,38167
+220,4,OPERATOR_SERBIAMONTENEGRO_TMOBILE_PREPAID_WNW,T-Mobile MMS,MMS,,http://192.168.180.100/servlets/mms,10.0.5.19:8080,mms,38267,38267
+220,5,,Vip GPRS,WAP,http://mobile.vipmobile.co.yu,,212.15.182.82:8080,vipmobile,vipmobile,vipmobile
+220,5,,Vip MMS,MMS,,http://mmsc.vipmobile.co.yu,212.15.182.82:8080,vipmobile.mms,vipmobile,vipmobile
+222,1,,WAP TIM,WAP,http://wap.i.tim.it/,,213.26.205.1:80,wap.tim.it,WAPTIM,WAPTIM
+222,1,,iTIM,MMS,,http://mms.tim.it/servlets/mms,213.230.130.89:80,unico.tim.it,,
+222,1,,MOBILE TV,DATA,,,,wap.tim.it,WAPTIM,WAPTIM
+222,10,,Vodafone live!,WAP,http://live.vodafone.com,,10.128.201.76:80,wap.omnitel.it,,
+222,10,,Vodafone MMS GPRS,MMS,,http://mms.vodafone.it/servlets/mms,10.128.224.10:80,mms.vodafone.it,,
+222,10,,Vodafone Wap GPRS,DATA,,,10.128.201.76:80,wap.omnitel.it,,
+222,88,,LIBERO WAP GPRS,WAP,http://mobile.libero.it,,212.245.244.100:8080,wap.wind,wind,wind
+222,88,,WINDBIZ WAP GPRS,WAP,http://mobile.libero.it,,212.245.244.100:8080,wap.wind.biz,wind,wind
+222,88,,WIND MMS GPRS,MMS,,http://mms.wind.it,212.245.244.100:8080,mms.wind,,
+226,1,,Vodafone live!,WAP,http://live.vodafone.com,,193.230.161.231:8080,live.vodafone.com,live,vodafone
+226,1,,Vodafone live! PRE,WAP,http://live.vodafone.com,,193.230.161.231:8080,live.pre.vodafone.com,live,vodafone
+226,1,,Vodafone MMS,MMS,,http://multimedia/servlets/mms,193.230.161.231:8080,mms.vodafone.ro,mms,vodafone
+226,1,,Vodafone MMS PRE,MMS,,http://multimedia/servlets/mms,193.230.161.231:8080,mms.pre.vodafone.ro,mms,vodafone
+226,3,,Internet,WAP,http://www.cosmote.ro/ro/html/internet.htm,,,Internet,,
+226,3,,Cosmote MMS,MMS,,http://mmsc1.mms.cosmote.ro:8002,10.252.1.62:8080,mms,mms,mms
+226,10,,Orange World,WAP,http://wap.orange.ro,,62.217.247.252:8799,wap,wap,wap
+226,10,,Orange MMS,MMS,,http://wap.mms.orange.ro:8002,62.217.247.252:8799,mms,mms,mms
+228,1,,Swisscom Services,WAP,http://portal.swisscom-mobile.ch/,,192.168.210.1:8080,gprs.swisscom.ch,,
+228,1,,Swisscom MMS,MMS,,http://mms.natel.ch:8079,192.168.210.2:8080,event.swisscom.ch,,
+228,1,,Swisscom PS,DATA,,,,gprs.swisscom.ch,,
+228,2,,Sunrise Internet,WAP,http://live.sunrise.ch,,,internet,,
+228,2,,Sunrise MMS,MMS,,http://mmsc.sunrise.ch,212.35.34.75:8080,mms.sunrise.ch,mms,mms
+228,3,,Orange World,WAP,http://mobile.orange.ch,,192.168.10.2:8080,wap,,
+228,3,,Orange MMS,MMS,,http://192.168.151.3:8002,192.168.151.2:8080,mms,,
+228,3,,Orange Internet,DATA,,,,internet,,
+228,8,,Tele2 WAP GPRS,WAP,http://wap.tele2.ch,,130.244.196.90:8080,internet.tele2.ch,,
+228,8,,Tele2 MMS,MMS,,http://mmsc.tele2.ch,193.12.40.67:8080,internet.tele2.ch,,
+228,8,,Tele2,DATA,,,,internet.tele2.ch,,
+230,1,,t-zones,WAP,http://tmo.cz,,10.0.0.10:80,wap.t-mobile.cz,wap,wap
+230,1,,T-Mobile MMS,MMS,,http://mms,10.0.0.10:80,mms.t-mobile.cz,mms,mms
+230,1,,T-Mobile Internet,DATA,,,,internet.t-mobile.cz,wap,wap
+230,1,OPERATOR_CZECH_TMOBILE_WNW_GPRS,T-Mobile Internet,DATA,,,,internet.t-mobile.cz,wap,wap
+230,2,,O2 WAP,WAP,http://wap.o2active.cz,,160.218.160.218:8080,wap,,
+230,2,,O2 Internet,WAP,http://www.o2active.cz,,,internet,,
+230,2,,O2 MMS,MMS,,http://mms.o2active.cz:8002,160.218.160.218:8080,mms,,
+230,2,,Video,DATA,,,,video,,
+230,3,,Vodafone Live!,WAP,http://live.vodafone.com,,10.11.10.11:80,data.vodafone.cz,wap,wap
+230,3,,MMS,MMS,,http://mms,10.11.10.111:80,mms,mms,mms
+230,3,,Vodafone live!,DATA,,,10.11.10.11:80,data.vodafone.cz,wap,wap
+230,3,,Internet,DATA,,,,internet,,
+231,1,,Orange World,WAP,http://wap.orange.sk,,213.151.208.156:8799,orangewap,wap,wap
+231,1,,MMS,MMS,,http://imms.orange.sk,213.151.208.145:8799,mms,wap,wap
+231,1,,Internet,DATA,,,,internet,,
+231,2,,t-zones,WAP,http://wap,,192.168.1.1:8080,wap,wap,wap
+231,2,,T-Mobile MMS,MMS,,http://mms,192.168.1.1:8080,mms,mms,mms
+231,2,,T-Mobile Internet,DATA,,,,internet,,
+231,2,OPERATOR_SLOVAKIA_TMOBILE_WNW_GPRS,T-Mobile Internet,WAP,http://www.t-zones.sk/pda/,,,internet,internet,
+231,2,OPERATOR_SLOVAKIA_TMOBILE_WNW_GPRS,T-Mobile MMS,MMS,,http://mms,192.168.1.1:8080,mms,mms,mms
+231,6,,O2 WAP,WAP,http://wap.o2world.sk,,10.97.1.11:8080,o2wap,,
+231,6,,O2 Internet,WAP,http://www.sk.o2.com,,,o2internet,,
+231,6,,O2 MMS,MMS,,http://mms.o2world.sk:8002,10.97.1.11:8080,o2mms,,
+232,1,,live!,WAP,http://live.a1.net,,194.48.124.71:8001,a1.net,ppp@a1plus.at,ppp
+232,1,,A1 MMS,MMS,,http://mmsc.a1.net,194.48.124.71:8001,free.a1.net,ppp@a1plus.at,ppp
+232,1,,A1.net,DATA,,,,a1.net,ppp@a1plus.at,ppp
+232,3,,t-zones,WAP,http://www.t-zones.at,,10.12.0.20:80,gprswap,,
+232,3,,t-zones business,WAP,http://www.t-zones.at,,10.12.0.20:80,business.gprswap,,
+232,3,,T-Mobile MMS,MMS,,http://mmsc.t-mobile.at/servlets/mms,10.12.0.20:80,gprsmms,t-mobile,tm
+232,3,,T-Mobile Internet,DATA,,,,gprsinternet,t-mobile,tm
+232,3,OPERATOR_AUSTRIA_TMOBILE_WNW_GPRS,T-Mobile Internet,WAP,http://www.t-mobile-favoriten.at,,,gprsinternet,t-mobile,tm
+232,3,OPERATOR_AUSTRIA_TMOBILE_WNW_GPRS,T-Mobile MMS,MMS,,http://mmsc.t-mobile.at/servlets/mms,10.12.0.20:80,gprsmms,t-mobile,tm
+232,5,,Orange World,WAP,http://wap.orange.at,,194.24.128.118:8080,orange.world,wap,wap
+232,5,,Orange MMS,MMS,,http://mmsc.orange.at/mms/wapenc,194.24.128.118:8080,orange.mms,mms,mms
+232,5,,Orange Web,DATA,,,,orange.web,web,web
+232,7,,telering wap,WAP,http://wap.telering.at,,212.95.31.50:80,wap,wap@telering.at,wap
+232,7,,telering mms,MMS,,http://relay.mms.telering.at,212.95.31.50:80,mms,wap@telering.at,wap
+232,7,,telering web,DATA,,,,web,web@telering.at,web
+232,7,OPERATOR_AUSTRIA_TELERING_WNW_GPRS,telering web,WAP,http://wap.telering.at,,,web,web@telering.at,wep
+232,7,OPERATOR_AUSTRIA_TELERING_WNW_GPRS,telering mms,MMS,,http://relay.mms.telering.at,212.95.31.50:80,mms,wap@telering.at,wap
+232,9,,Tele2 GPRS,WAP,http://wap.tele2.at,,130.244.196.90:8080,internet.tele2.at,,
+232,9,,Tele2 MMS,MMS,,http://mmsc.tele2.at,193.12.40.59:8080,internet.tele2.at,,
+232,9,,Tele2,DATA,,,,internet.tele2.at,,
+232,9,,Tele2 WAP GPRS,DATA,,,,internet.tele2.at,,
+232,10,,Planet3,WAP,http://mobile.drei.at/hb/homebase/HutchKey,,,drei.at,,
+232,10,,3MMS,MMS,,http://mmsc,213.94.78.133:8799,drei.at,,
+232,10,,Planet 3,DATA,,,,drei.at,,
+234,10,,O2 Pay Monthly,WAP,http://wap.o2.co.uk,,193.113.200.195:8080,wap.o2.co.uk,o2wap,password
+234,10,,O2 Pay & Go,WAP,http://wap.o2.co.uk,,193.113.200.195:8080,payandgo.o2.co.uk,payandgo,password
+234,10,,Tesco WAP GPRS,WAP,http://wap.tesco-mobile.com/,,193.113.200.195:8080,prepay.tesco-mobile.com,tescowap,password
+234,10,,O2 MMS Pay monthly,MMS,,http://mmsc.mms.o2.co.uk:8002,193.113.200.195:8080,wap.o2.co.uk,o2wap,password
+234,10,,O2 MMS Pay & Go,MMS,,http://mmsc.mms.o2.co.uk:8002,193.113.200.195:8080,payandgo.o2.co.uk,payandgo,password
+234,10,,Tesco MMS,MMS,,http://mmsc.mms.o2.co.uk:8002,193.113.200.195:8080,prepay.tesco-mobile.com,tescowap,password
+234,10,MVNO_UK_O2_POSTPAID,O2 Pay Monthly,WAP,http://wap.o2.co.uk,,193.113.200.195:8080,wap.o2.co.uk,o2wap,password
+234,10,MVNO_UK_O2_POSTPAID,O2 Pay & Go,WAP,http://wap.o2.co.uk,,193.113.200.195:8080,payandgo.o2.co.uk,payandgo,password
+234,10,MVNO_UK_O2_POSTPAID,O2 MMS Pay monthly,MMS,,http://mmsc.mms.o2.co.uk:8002,193.113.200.195:8080,wap.o2.co.uk,o2wap,password
+234,10,MVNO_UK_O2_POSTPAID,O2 MMS Pay & Go,MMS,,http://mmsc.mms.o2.co.uk:8002,193.113.200.195:8080,payandgo.o2.co.uk,payandgo,password
+234,10,MVNO_UK_O2_PREPAID,O2 Pay & Go,WAP,http://wap.o2.co.uk,,193.113.200.195:8080,payandgo.o2.co.uk,payandgo,password
+234,10,MVNO_UK_O2_PREPAID,O2 Pay Monthly,WAP,http://wap.o2.co.uk,,193.113.200.195:8080,wap.o2.co.uk,o2wap,password
+234,10,MVNO_UK_O2_PREPAID,O2 MMS Pay & Go,MMS,,http://mmsc.mms.o2.co.uk:8002,193.113.200.195:8080,payandgo.o2.co.uk,payandgo,password
+234,10,MVNO_UK_O2_PREPAID,O2 MMS Pay monthly,MMS,,http://mmsc.mms.o2.co.uk:8002,193.113.200.195:8080,wap.o2.co.uk,o2wap,password
+234,10,MVNO_UK_TESCO_IN_O2,Tesco WAP GPRS,WAP,http://wap.tesco-mobile.com/,,193.113.200.195:8080,prepay.tesco-mobile.com,tescowap,password
+234,10,MVNO_UK_TESCO_IN_O2,Tesco MMS,MMS,,http://mmsc.mms.o2.co.uk:8002,193.113.200.195:8080,prepay.tesco-mobile.com,tescowap,password
+234,15,,Contract WAP,WAP,http://live.vodafone.com,,212.183.137.12:8799,wap.vodafone.co.uk,wap,wap
+234,15,,PAYT WAP,WAP,http://live.vodafone.com,,212.183.137.12:8799,pp.vodafone.co.uk,wap,wap
+234,15,,ASDA WAP,WAP,http://www.asda-mobile.com/wap,,212.183.137.12:8799,asdamobiles.co.uk,wap,wap
+234,15,,Talkmob PAYG WAP,WAP,http://wap.talkmobile.co.uk ,,212.183.137.12:8799,payg.talkmobile.co.uk ,wap,
+234,15,,Talkmob WAP,WAP,http://wap.talkmobile.co.uk,,212.183.137.12:8799,talkmobile.co.uk,wap,
+234,15,,Contract MMS,MMS,,http://mms.vodafone.co.uk/servlets/mms,212.183.137.12:8799,wap.vodafone.co.uk,wap,wap
+234,15,,PAYT MMS,MMS,,http://mms.vodafone.co.uk/servlets/mms,212.183.137.12:8799,pp.vodafone.co.uk,wap,wap
+234,15,,ASDA MMS,MMS,,http://mms.asdamobiles.co.uk/servlets/mms,212.183.137.12:8799,asdamobiles.co.uk,wap,wap
+234,15,,Talkmob PAYG MMS,MMS,,http://mms.talkmobile.co.uk/servlets/mms,212.183.137.12:8799,payg.talkmobile.co.uk,wap,wap
+234,15,,Talkmob MMS,MMS,,http://mms.talkmobile.co.uk/servlets/mms,212.183.137.12:8799,talkmobile.co.uk,wap,wap
+234,15,MVNO_UK_ASDA,ASDA WAP,WAP,http://www.asda-mobile.com/wap,,212.183.137.12:8799,asdamobiles.co.uk,wap,wap
+234,15,MVNO_UK_ASDA,ASDA MMS,MMS,,http://mms.asdamobiles.co.uk/servlets/mms,212.183.137.12:8799,asdamobiles.co.uk,wap,wap
+234,15,MVNO_UK_TALKMOBILE,Talkmob PAYG WAP,WAP,http://wap.talkmobile.co.uk ,,212.183.137.12:8799,payg.talkmobile.co.uk ,wap,
+234,15,MVNO_UK_TALKMOBILE,Talkmob WAP,WAP,http://wap.talkmobile.co.uk,,212.183.137.12:8799,talkmobile.co.uk,wap,
+234,15,MVNO_UK_TALKMOBILE,Talkmob PAYG MMS,MMS,,http://mms.talkmobile.co.uk/servlets/mms,212.183.137.12:8799,payg.talkmobile.co.uk,wap,wap
+234,15,MVNO_UK_TALKMOBILE,Talkmob MMS,MMS,,http://mms.talkmobile.co.uk/servlets/mms,212.183.137.12:8799,talkmobile.co.uk,wap,wap
+234,15,MVNO_UK_VODAFONE_POSTPAID,Contract WAP,WAP,http://live.vodafone.com,,212.183.137.12:8799,wap.vodafone.co.uk,wap,wap
+234,15,MVNO_UK_VODAFONE_POSTPAID,Contract Internet,WAP,http://www.google.co.uk,,,internet,web,web
+234,15,MVNO_UK_VODAFONE_POSTPAID,PAYT WAP,WAP,http://live.vodafone.com,,212.183.137.12:8799,pp.vodafone.co.uk,wap,wap
+234,15,MVNO_UK_VODAFONE_POSTPAID,PAYT Internet,WAP,http://www.google.co.uk,,,pp.vodafone.co.uk,web,web
+234,15,MVNO_UK_VODAFONE_POSTPAID,Contract MMS,MMS,,http://mms.vodafone.co.uk/servlets/mms,212.183.137.12:8799,wap.vodafone.co.uk,wap,wap
+234,15,MVNO_UK_VODAFONE_POSTPAID,PAYT MMS,MMS,,http://mms.vodafone.co.uk/servlets/mms,212.183.137.12:8799,pp.vodafone.co.uk,wap,wap
+234,15,MVNO_UK_VODAFONE_PREPAID,Contract WAP,WAP,http://live.vodafone.com,,212.183.137.12:8799,wap.vodafone.co.uk,wap,wap
+234,15,MVNO_UK_VODAFONE_PREPAID,Contract Internet,WAP,http://www.google.co.uk,,,internet,web,web
+234,15,MVNO_UK_VODAFONE_PREPAID,PAYT WAP,WAP,http://live.vodafone.com,,212.183.137.12:8799,pp.vodafone.co.uk,wap,wap
+234,15,MVNO_UK_VODAFONE_PREPAID,PAYT Internet,WAP,http://www.google.co.uk,,,pp.vodafone.co.uk,web,web
+234,15,MVNO_UK_VODAFONE_PREPAID,Contract MMS,MMS,,http://mms.vodafone.co.uk/servlets/mms,212.183.137.12:8799,wap.vodafone.co.uk,wap,wap
+234,15,MVNO_UK_VODAFONE_PREPAID,PAYT MMS,MMS,,http://mms.vodafone.co.uk/servlets/mms,212.183.137.12:8799,pp.vodafone.co.uk,wap,wap
+234,20,,3 Services,WAP,http://mobile.three.co.uk/hb/HutchKey,,,three.co.uk,,
+234,30,,T-Mobile Internet,WAP,http://www.t-zones.co.uk,,149.254.201.132:8080,general.t-mobile.uk,t-mobile,tm
+234,30,,Virgin GPRS,WAP,http://www.virgin.com/mobile/wap/,,193.30.166.4:8080,goto.virginmobile.uk,user,
+234,30,,T-Mobile PictureMessage,MMS,,http://mmsc.t-mobile.co.uk:8002,149.254.201.135:8080,general.t-mobile.uk,t-mobile,tm
+234,30,,VM Picture Messaging,MMS,,http://mms.virginmobile.co.uk:8002,193.30.166.2:8080,goto.virginmobile.uk,user,
+234,30,MVNO_UK_TMO,T-Mobile Internet,WAP,http://www.t-zones.co.uk,,149.254.201.132:8080,general.t-mobile.uk,t-mobile,tm
+234,30,MVNO_UK_TMO,T-Mobile PictureMessage,MMS,,http://mmsc.t-mobile.co.uk:8002,149.254.201.135:8080,general.t-mobile.uk,t-mobile,tm
+234,30,MVNO_UK_VIRGINE_IN_TMO,Virgin GPRS,WAP,http://www.virgin.com/mobile/wap/,,193.30.166.4:8080,goto.virginmobile.uk,user,
+234,30,MVNO_UK_VIRGINE_IN_TMO,VM Picture Messaging,MMS,,http://mms.virginmobile.co.uk:8002,193.30.166.2:8080,goto.virginmobile.uk,user,
+234,30,OPERATOR_ENGLAND_TMOBILE_WNW_GPRS,T-Mobile Internet,WAP,http://www.t-mobile-favourites.co.uk/,,,general.t-mobile.uk,t-mobile,tm
+234,30,OPERATOR_ENGLAND_TMOBILE_WNW_GPRS,T-Mobile PictureMessage,MMS,,http://mmsc.t-mobile.co.uk:8002,149.254.201.135:8080,general.t-mobile.uk,t-mobile,tm
+234,31,,T-Mobile PictureMessage,MMS,,http://mmsc.t-mobile.co.uk:8002,149.254.201.135:8080,general.t-mobile.uk,t-mobile,tm
+234,31,MVNO_UK_TMO,T-Mobile PictureMessage,MMS,,http://mmsc.t-mobile.co.uk:8002,149.254.201.135:8080,general.t-mobile.uk,t-mobile,tm
+234,32,,T-Mobile PictureMessage,MMS,,http://mmsc.t-mobile.co.uk:8002,149.254.201.135:8080,general.t-mobile.uk,t-mobile,tm
+234,32,MVNO_UK_TMO,T-Mobile PictureMessage,MMS,,http://mmsc.t-mobile.co.uk:8002,149.254.201.135:8080,general.t-mobile.uk,t-mobile,tm
+234,33,,Orange GPRS WAP,WAP,http://orangeworld.co.uk,,192.168.71.35:8080,orangewap,,
+234,33,,Orange Internet,WAP,http://orangeworld.co.uk,,,orangeinternet,,
+234,33,,Orange MMS,MMS,,http://mms.orange.co.uk/,192.168.224.10:8080,orangemms,,
+234,33,MVNO_UK_ORANGE,Orange GPRS WAP,WAP,http://orangeworld.co.uk,,192.168.71.35:8080,orangewap,,
+234,33,MVNO_UK_ORANGE,Orange Internet,WAP,http://orangeworld.co.uk,,,orangeinternet,,
+234,33,MVNO_UK_ORANGE,Orange MMS,MMS,,http://mms.orange.co.uk/,192.168.224.10:8080,orangemms,,
+238,1,,TDC WAP,WAP,http://m.tdc.dk,,194.182.251.15:8080,wap,,
+238,1,,Telmore WAP,WAP,http://mobil.telmore.dk,,194.182.251.15:8080,wap,,
+238,1,,TDC MMS,MMS,,http://192.168.241.114:8002,194.182.251.15:8080,mms,,
+238,1,,Telmore MMS,MMS,,http://192.168.241.114:8002,194.182.251.15:8080,mms,,
+238,1,MVNO_DENMARK_TDC,TDC WAP,WAP,http://m.tdc.dk,,194.182.251.15:8080,wap,,
+238,1,MVNO_DENMARK_TDC,TDC MMS,MMS,,http://192.168.241.114:8002,194.182.251.15:8080,mms,,
+238,1,MVNO_DENMARK_TELMORE,Telmore WAP,WAP,http://mobil.telmore.dk,,194.182.251.15:8080,wap,,
+238,1,MVNO_DENMARK_TELMORE,Telmore MMS,MMS,,http://192.168.241.114:8002,194.182.251.15:8080,mms,,
+238,2,,Sonofon WAP GPRS,WAP,http://wap.sonofon.dk,,212.88.64.8:8080,internet,,
+238,2,,CBB WAP GPRS,WAP,http://wap.cbb.dk,,212.88.64.8:8080,internet,,
+238,2,,Sonofon MMS,MMS,,http://mms.sonofon.dk,212.88.64.8:8080,sonofon,,
+238,2,,CBB MMS,MMS,,http://mms.sonofon.dk,212.88.64.8:8080,sonofon,,
+238,2,,Sonofon WAP,DATA,,,,internet,,
+238,2,,Sonofon GPRS,DATA,,,,internet,,
+238,2,MVNO_DENMARK_CBB,CBB WAP GPRS,WAP,http://wap.cbb.dk,,212.88.64.8:8080,internet,,
+238,2,MVNO_DENMARK_CBB,CBB MMS,MMS,,http://mms.sonofon.dk,212.88.64.8:8080,sonofon,,
+238,2,MVNO_DENMARK_CBB,Sonofon GPRS,DATA,,,,internet,,
+238,2,MVNO_DENMARK_SONOFONE,Sonofon WAP GPRS,WAP,http://wap.sonofon.dk,,212.88.64.8:8080,internet,,
+238,2,MVNO_DENMARK_SONOFONE,Sonofon MMS,MMS,,http://mms.sonofon.dk,212.88.64.8:8080,sonofon,,
+238,2,MVNO_DENMARK_SONOFONE,Sonofon WAP,DATA,,,,internet,,
+238,6,,3DK WAP,WAP,http://mobil.3.dk/portal,,,data.tre.dk,,
+238,6,,3mms,MMS,,http://mms.3.dk,mmsproxy.3.dk:8799,data.tre.dk,,
+238,6,,CBB WAP GPRS,DATA,,,,internet,,
+238,20,,Telia SurfPort GPRS,WAP,http://mobil.telia.dk,,,www.internet.mtelia.dk,,
+238,20,,Debitel GPRS,WAP,http://wap.debitel.dk,,,webSP,,
+238,20,,DLG Tele GPRS,WAP,http://mobil.telia.dk,,,webSP,,
+238,20,,Telia MMS,MMS,,http://mms.telia.dk,193.209.134.131:8080,www.mms.mtelia.dk,,
+238,20,,DLG Tele MMS,MMS,,http://mms.telia.dk/,193.209.134.131:8080,mmsSP,,
+238,20,,debitel MMS,MMS,,http://mms.telia.dk/,193.209.134.131:8080,mmsSP,,
+238,20,,Telia JAVA,DATA,,,,www.internet.mtelia.dk,,
+238,20,,debitel WAP,DATA,,,,webSP,,
+238,20,,DLG Tele WAP,DATA,,,,webSP,,
+238,20,,Telia SurfPort,DATA,,,,www.internet.mtelia.dk,,
+238,20,,WAP (GPRS),DATA,,,,websp,,
+238,20,,Debitel Telia,DATA,,,,webSP,,
+238,20,MVNO_DENMARK_DEBITEL,Debitel GPRS,WAP,http://wap.debitel.dk,,,webSP,,
+238,20,MVNO_DENMARK_DEBITEL,debitel MMS,MMS,,http://mms.telia.dk/,193.209.134.131:8080,mmsSP,,
+238,20,MVNO_DENMARK_DEBITEL,debitel WAP,DATA,,,,webSP,,
+238,20,MVNO_DENMARK_DEBITEL,Debitel Telia,DATA,,,,webSP,,
+238,20,MVNO_DENMARK_DLG,DLG Tele GPRS,WAP,http://mobil.telia.dk,,,webSP,,
+238,20,MVNO_DENMARK_DLG,DLG Tele MMS,MMS,,http://mms.telia.dk/,193.209.134.131:8080,mmsSP,,
+238,20,MVNO_DENMARK_DLG,DLG Tele WAP,DATA,,,,webSP,,
+238,20,MVNO_DENMARK_TELIA_DK,Telia SurfPort GPRS,WAP,http://mobil.telia.dk,,,www.internet.mtelia.dk,,
+238,20,MVNO_DENMARK_TELIA_DK,Telia MMS,MMS,,http://mms.telia.dk,193.209.134.131:8080,www.mms.mtelia.dk,,
+238,20,MVNO_DENMARK_TELIA_DK,Telia JAVA,DATA,,,,www.internet.mtelia.dk,,
+238,20,MVNO_DENMARK_TELIA_DK,Telia SurfPort,DATA,,,,www.internet.mtelia.dk,,
+238,30,,Telia SurfPort GPRS,WAP,http://mobil.telia.dk,,,www.internet.mtelia.dk,,
+238,30,,Telia MMS,MMS,,http://mms.telia.dk,193.209.134.131:8080,www.mms.mtelia.dk,,
+238,30,,Telia SurfPort,DATA,,,,www.internet.mtelia.dk,,
+238,30,MVNO_DENMARK_TELIA_DK,Telia SurfPort GPRS,WAP,http://mobil.telia.dk,,,www.internet.mtelia.dk,,
+238,30,MVNO_DENMARK_TELIA_DK,Telia MMS,MMS,,http://mms.telia.dk,193.209.134.131:8080,www.mms.mtelia.dk,,
+238,30,MVNO_DENMARK_TELIA_DK,Telia SurfPort,DATA,,,,www.internet.mtelia.dk,,
+240,1,,Telia SurfPort,WAP,http://mobil.teliasurfport.se,,10.254.254.254:8080,online.telia.se,,
+240,1,,Telia MMS,MMS,,http://mmss,193.209.134.132:80,mms.telia.se,,
+240,2,,Planet 3,WAP,http://mobil.tre.se/portal ,,,data.tre.se,,
+240,2,,3mms,MMS,,http://mms.tre.se,mmsproxy.tre.se:8799,data.tre.se,,
+240,2,,3,DATA,,,,data.tre.se,,
+240,7,,Tele2 WAP,WAP,http://wap.tele2.se http://wap.tele2.no/,,130.244.196.90:8080,internet.tele2.se,,
+240,7,,Tele2 MMS,MMS,,http://mmsc.tele2.se http://mmsc.tele2.no,130.244.202.30:8080,internet.tele2.se,,
+240,7,,Tele2 Java,DATA,,,,internet.tele2.no,,
+240,7,MVNO_NORWAY_TELE2_POSTPAID,Tele2 WAP,WAP,http://wap.tele2.no/,,130.244.196.90:8080,internet.tele2.no,,
+240,7,MVNO_NORWAY_TELE2_POSTPAID,Tele2 MMS,MMS,,http://mmsc.tele2.no,193.12.40.14:8080,internet.tele2.no,,
+240,7,MVNO_NORWAY_TELE2_POSTPAID,Tele2 Java,DATA,,,,internet.tele2.no,,
+240,7,MVNO_NORWAY_TELE2_PREPAID,Tele2 WAP,WAP,http://wap.tele2.no/,,130.244.196.90:8080,internet.tele2.no,,
+240,7,MVNO_NORWAY_TELE2_PREPAID,Tele2 MMS,MMS,,http://mmsc.tele2.no,193.12.40.14:8080,internet.tele2.no,,
+240,7,MVNO_NORWAY_TELE2_PREPAID,Tele2 Java,DATA,,,,internet.tele2.no,,
+240,7,MVNO_SWEDEN_TELE2,Tele2 WAP,WAP,http://wap.tele2.se,,130.244.196.90:8080,internet.tele2.se,,
+240,7,MVNO_SWEDEN_TELE2,Tele2 MMS,MMS,,http://mmsc.tele2.se,130.244.202.30:8080,internet.tele2.se,,
+240,8,,Telenor WAP,WAP,http://mobil.telenor.se,,172.30.253.241:8799,services.telenor.se,,
+240,8,,Telenor MMS,MMS,,http://mms,172.30.253.241:8799,services.telenor.se,,
+242,1,,Entry,WAP,http://wap.telenormobil.no/,,10.10.10.10:8080,telenor,,
+242,1,,Telenor MMS,MMS,,http://mmsc/,10.10.10.11:8080,telenor,,
+242,1,,Telenor,DATA,,,,telenor,,
+242,1,,Telenor Internett,DATA,,,,telenor,,
+242,2,,NetCom Mobil,WAP,http://wap.netcom.no/,,10.254.254.10:8080,netcom,,
+242,2,,Chess Mobil,WAP,http://chess.mobi/,,10.254.254.10:8080,netcom,,
+242,2,,Netcom WAP,WAP,http://wap.netcom.no/,,10.254.254.10:8080,netcom,,
+242,2,,NetCom MMS,MMS,,http://mm/,212.169.66.4:8080,mms.netcom.no,mms,netcom
+242,2,,Chess MMS,MMS,,http://mm/,212.169.66.4:8080,mms.netcom.no,mms,netcom
+242,2,,NetCom Streaming,DATA,,,,netcom,,
+242,2,,Chess Streaming,DATA,,,,netcom,,
+242,2,MVNO_NORWAY_CHESS,Chess Mobil,WAP,http://chess.mobi/,,10.254.254.10:8080,netcom,,
+242,2,MVNO_NORWAY_CHESS,Chess MMS,MMS,,http://mm/,212.169.66.4:8080,mms.netcom.no,mms,netcom
+242,2,MVNO_NORWAY_CHESS,Chess Streaming,DATA,,,,netcom,,
+242,2,MVNO_NORWAY_NETCOM,NetCom Mobil,WAP,http://wap.netcom.no/,,10.254.254.10:8080,netcom,,
+242,2,MVNO_NORWAY_NETCOM,NetCom MMS,MMS,,http://mm/,212.169.66.4:8080,mms.netcom.no,mms,netcom
+242,2,MVNO_NORWAY_NETCOM,NetCom Streaming,DATA,,,,netcom,,
+242,7,,Tele2 MMS,MMS,,http://mmsc.tele2.no,193.12.40.14:8080,mms.tele2.no,,
+244,5,,elisa WAP,WAP,http://wap.elisa.net/,,213.161.40.40:80,wap,,
+244,5,,elisa MMS,MMS,,http://mms.elisa.fi,213.161.41.57:80,mms,,
+244,5,,Elisa WAP,DATA,,,213.161.40.40:80,wap,,
+244,12,,dna WAP,WAP,http://wap.dnafinland.fi,,10.1.1.1:8080,wap,,
+244,12,,dna MMS,MMS,,http://mmsc.dnafinland.fi,10.1.1.2:8080,mms,,
+244,21,,Saunalahti WAP,WAP,http://wap.saunalahti.fi,,62.142.4.197:8080,wap.saunalahti.fi,,
+244,21,,Saunalahti MMS,MMS,,http://mms.saunalahti.fi:8002/,62.142.4.197:8080,mms.saunalahti.fi,,
+244,30,,DNA Fi,MMS,,http://mmsc.dnafinland.fi,10.1.1.2:9201,mms,dna,mms
+244,91,,Sonera WAP,WAP,http://wap.surfport.fi,,195.156.25.4:8080,wap.sonera.net,,
+244,91,,Sonera MMS,MMS,,http://mms.sonera.fi:8002,195.156.25.33:8080,wap.sonera.net,,
+246,1,,Omni SurfPort,WAP,http://wap.sp.lt,,194.176.32.151:8080,omnitel,omni,omni
+246,1,,OMNI MMS,MMS,,http://mms.omnitel.net:8002/,194.176.32.149:8080,gprs.mms.lt,mms,mms
+246,1,,OMNITEL_JAVA,DATA,,,,omnitel,omni,omni
+246,1,,Omnitel Streaming,DATA,,,,omnitel,,
+246,2,,BITE_GPRS,WAP,http://wap.biteplius.lt,,213.226.131.133:9201,wap,,
+246,2,,LABAS_GPRS,WAP,http://wap.biteplius.lt,,213.226.131.133:9201,wap,wap,wap
+246,2,,BITE_MMS,MMS,,http://mmsc/servlets/mms,192.168.150.2:8080,mms,mms@mms,mms
+246,2,,BITE_JAVA,DATA,,,,wap,,
+246,2,,LABAS_JAVA,DATA,,,,wap,wap,wap
+246,2,,BITE_Streaming,DATA,,,,wap,,
+246,2,,LABAS_Streaming,DATA,,,,wap,,
+246,3,,TELE2 GPRS,WAP,http://wap.tele2.lt,,130.244.196.90:9201,internet.tele2.lt,wap,wap
+246,3,,PILDYK_GPRS,WAP,http://wap.tele2.lt,,130.244.196.90:9201,wap.tele2.lt,wap,wap
+246,3,,TELE2_MMS,MMS,,http://mmsc.tele2.lt,193.12.40.29:9201,mms.tele2.lt,wap,wap
+246,3,,PILDYK_MMS,MMS,,http://mmsc.tele2.lt,193.12.40.29:9201,wap.tele2.lt,wap,wap
+246,3,,TELE2_JAVA,DATA,,,,internet.tele2.lt,wap,wap
+246,3,,PILDYK_JAVA,DATA,,,,wap.tele2.lt,wap,wap
+246,3,,TELE2_Streaming,DATA,,,,internet.tele2.lt,,
+246,3,,PILDYK Streaming,DATA,,,,wap.tele2.lt,,
+247,1,,LMT_GPRS,WAP,http://wap.lmt.lv,,212.93.97.200:9201,Internet.lmt.lv,lmt,lmt
+247,1,,OKARTE_GPRS,WAP,http://wap.lmt.lv,,212.93.97.200:9201,OKARTE.lmt.lv,lmt,lmt
+247,1,,LMT_MMS,MMS,,http://mmsc.lmt.lv/mmsc,212.93.97.201:9201,mms.lmt.lv,lmt,lmt
+247,1,,OKARTE_MMS,MMS,,http://mmsc.lmt.lv/mmsc,212.93.97.201:9201,okarte.mms.lmt.lv,lmt,lmt
+247,1,,LMT_JAVA,DATA,,,,Internet.lmt.lv,lmt,lmt
+247,1,,OKARTE_JAVA,DATA,,,,OKARTE.lmt.lv,lmt,lmt
+247,1,,LMT_Streaming,DATA,,,,video.lmt.lv,,
+247,1,,Okarte_Streaming,DATA,,,,video.lmt.lv,,
+247,2,,TELE2 GPRS,WAP,http://wap.tele2.lv,,130.244.196.90:8080,Internet.tele2.lv,wap,wap
+247,2,,ZZ_GPRS,WAP,http://wap.tele2.lv,,130.244.196.90:8080,wap.tele2.lv,wap,wap
+247,2,,TELE2_MMS,MMS,,http://mmsc.tele2.lv,193.12.40.38:8080,mms.tele2.lv,wap,wap
+247,2,,ZZ_MMS,MMS,,http://mmsc.tele2.lv,193.12.40.38:8080,mms.tele2.lv,wap,wap
+247,2,,TELE2_JAVA,DATA,,,,Internet.tele2.lv,wap,wap
+247,2,,TELE2_Streaming,DATA,,,,internet.tele2.lv,,
+247,5,,BITE GPRS,WAP,http://wap.biteplus.lv,,213.226.131.133:9201,wap,wap,wap
+247,5,,BITE_MMS,MMS,,http://mmsc/servlets/mms,192.168.150.2:9201,mms,mms@mms,mms
+247,5,,BITE_JAVA,DATA,,,,wap,wap,wap
+247,5,,BITE_Streaming,DATA,,,,wap,,
+248,1,,EMT_GPRS,WAP,http://wap.emt.ee,,217.71.32.236:8080,wap.emt.ee,,
+248,1,,Simpel/POP! GPRS,WAP,http://wap.emt.ee,,217.71.32.236:8080,wap2.emt.ee,,
+248,1,,EMT_MMS,MMS,,http://mms.emt.ee/servlets/mms,217.71.32.82:8080,mms.emt.ee,,
+248,1,,Simpel/POP! MMS,MMS,,http://mms.emt.ee/servlets/mms,217.71.32.82:8080,mms2.emt.ee,,
+248,1,,EMT_JAVA,DATA,,,217.71.32.236:8080,wap.emt.ee,,
+248,1,,Simpel/POP! JAVA,DATA,,,217.71.32.236:8080,wap2.emt.ee,,
+248,1,,EMT_Streaming,DATA,,,,wap.emt.ee,,
+248,1,,Simpel/POP! Streaming,DATA,,,,wap2.emt.ee,,
+248,2,,ELISA_GPRS,WAP,http://wap.elisa.ee,,194.204.2.6:8000,wap,,
+248,2,,ELISA_MMS,MMS,,http://194.204.2.10,194.204.2.6:8000,mms,,
+248,2,,ELISA_JAVA,DATA,,,,wap,,
+248,2,,ELISA_Streaming,DATA,,,,internet,,
+248,3,,TELE2_GPRS,WAP,http://wap.tele2.ee,,130.244.196.90:8080,internet.tele2.ee,wap,wap
+248,3,,Smart/Ultra GPRS,WAP,http://wap.tele2.ee,,130.244.196.90:8080,wap.tele2.ee,wap,wap
+248,3,,TELE2_MMS,MMS,,http://mmsc.tele2.ee,193.12.40.6:9201,mms.tele2.ee,wap,wap
+248,3,,Smart/Ultra MMS,MMS,,http://mmsc.tele2.ee,193.12.40.6:9201,wap.tele2.ee,wap,wap
+248,3,,TELE2_JAVA,DATA,,,,internet.tele2.ee,wap,wap
+248,3,,Smart/Ultra JAVA,DATA,,,,wap.tele2.ee,wap,wap
+248,3,,TELE2_Streaming,DATA,,,,internet.tele2.ee,,
+248,3,,Smart/Ultra_Streaming,DATA,,,,wap.tele2.ee,,
+250,1,,MTS-WAP GPRS,WAP,http://wap.mts.ru,,192.168.192.168:8080,wap.mts.ru,mts,mts
+250,1,,MTS MMS,MMS,,http://mmsc,192.168.192.192:8080,mms.mts.ru,mts,mts
+250,1,,MTS Java GPRS,DATA,,,,internet.mts.ru,mts,mts
+250,1,,MTS_internet,DATA,,,,internet.mts.ru,mts,mts
+250,2,,MegaFon-WAP GPRS,WAP,http://wap.MegaFonPRO.ru,,10.10.10.10:8080,wap,wap,wap
+250,2,,Megafon MMS,MMS,,http://mmsc:8002,10.10.10.10:8080,mms,mms,mms
+250,2,,MegaFon-JAVA GPRS,DATA,,,,internet,gdata,gdata
+250,2,,MegaFon_internet,DATA,,,,internet,,
+250,20,,TELE2 WAP GPRS,WAP,http://wap.tele2.ru,,130.244.196.90:8080,wap.TELE2.ru,,
+250,20,,TELE2  MMS,MMS,,http://mmsc.tele2.ru,193.12.40.65:9201,mms.TELE2.ru,,
+250,20,,TELE2 JAVA GPRS,DATA,,,,internet.tele2.ru,,
+250,20,,TELE2_internet,DATA,,,,internet.tele2.ru,,
+250,99,,Beeline-WAP-GPRS,WAP,http://wap.beeline.ru,,192.168.17.1:8080,wap.beeline.ru,beeline,beeline
+250,99,,Beeline MMS,MMS,,http://mms/,192.168.94.23:8080,mms.beeline.ru,beeline,beeline
+250,99,,Beeline-JAVA-GPRS,DATA,,,,internet.beeline.ru,beeline,beeline
+250,99,,Beeline_internet,DATA,,,,internet.beeline.ru,beeline,beeline
+255,1,,MTS WAP GPRS,WAP,http://wap.mts.com.ua,,192.168.10.10:8080,wap,,
+255,1,,MTS MMS GPRS,MMS,,http://mmsc:8002/,192.168.10.10:8080,mms,,
+255,1,,MTS Java GPRS,DATA,,,,internet,,
+255,1,,MTS_internet,DATA,,,,internet,,
+255,2,,Beeline WAP GPRS,WAP,http://wap.beeline.ua,,172.29.18.192:8080,wap.beeline.ua,,
+255,2,,Beeline MMS GPRS,MMS,,http://mms/,172.29.18.192:8080,mms.beeline.ua,,
+255,2,,Beeline Java GPRS,DATA,,,,internet.beeline.ua,,
+255,2,,Beeline_internet,DATA,,,,internet.beeline.ru,beeline,beeline
+255,3,,Kyivstar WAP GPRS,WAP,http://wap.starport.com.ua,,10.10.10.10:8080,wap.kyivstar.net,wgprs,wap
+255,3,,Ace&Base WAP GPRS,WAP,http://wap.starport.com.ua,,10.10.10.10:8080,wap.ab.kyivstar.net,,
+255,3,,DJUICE WAP GPRS,WAP,http://wap.djuice.com.ua,,10.10.10.10:8080,wap.djuice.com.ua,djuice,wap
+255,3,,Kyivstar MMS GPRS,MMS,,http://mms.kyivstar.net,10.10.10.10:8080,mms.kyivstar.net,mms,mms
+255,3,,Ace&Base MMS GPRS,MMS,,http://mms.kyivstar.net,10.10.10.10:8080,mms.kyivstar.net,mms,mms
+255,3,,DJUICE MMS GPRS,MMS,,http://mms.kyivstar.net,10.10.10.10:8080,mms.djuice.com.ua,djuice,mms
+255,3,,Kyivstar Java GPRS,DATA,,,,www.kyivstar.net,igprs,internet
+255,3,,Ace&Base Java GPRS,DATA,,,,www.ab.kyivstar.net,igprs,internet
+255,3,,DJUICE Java GPRS,DATA,,,,www.djuice.com.ua,,
+255,3,,Kyivstar_internet,DATA,,,,www.kyivstar.net,igprs,internet
+255,3,,Ace&Base_internet,DATA,,,,www.ab.kyivstar.net,igprs,internet
+255,3,,DJUICE_internet,DATA,,,,www.djuice.com.ua,djuice,wap
+255,6,,life:) WAP GPRS,WAP,http://wap.life.com.ua,,212.58.162.230:8080,wap,,
+255,6,,life:) MMS GPRS,MMS,,http://mms.life.com.ua/cmmsc/post,212.58.162.230:8080,mms,,
+255,6,,life:) Java GPRS,DATA,,,,internet,,
+255,6,,life:)_internet,DATA,,,,internet,,
+259,1,,Orange_WAP_GPRS,WAP,http://wap.orange.md,,192.168.127.124:9201,wap.orange.md,,
+259,1,,Orange_MMS_GPRS,MMS,,http://mms/mms,192.168.127.125:9201,mms.orange.md,,
+259,1,,Orange_Java_GPRS,DATA,,,,wap.orange.md,,
+259,1,,Orange_Streaming,DATA,,,,wap.orange.md,,
+259,2,,Moldcell WAP,WAP,http://wap.moldcell.md,,10.0.10.10:9201,wap,,
+259,2,,Moldcell MMS,MMS,,http://mms.moldcell.md/cmmsc/post,10.0.10.10:9201,mms,,
+259,2,,Moldcell Java,DATA,,,,internet,,
+259,2,,Moldcell Streaming,DATA,,,,internet,,
+259,4,,Eventis WAP,WAP,http://wap.eventispro.md,,10.10.10.10:9201,wap.md,,
+259,4,,Eventis MMS,MMS,,http://mmsc:8002/,10.10.10.10:9201,mms.md,,
+259,4,,Eventis Java,DATA,,,,internet.md,,
+259,4,,Eventis Streaming,DATA,,,,internet.md,,
+260,1,,Plus WAP,WAP,http://wap.plus.pl,,212.2.96.16:8080,wap.plusgsm.pl,,
+260,1,,Plus MMS,MMS,,http://mms.plusgsm.pl:8002/,212.2.96.16:8080,mms.plusgsm.pl,,
+260,1,,Plus Internet,DATA,,,,internet,,
+260,2,,Era Internet,WAP,http://wap.era.pl,,213.158.194.229:8080,erainternet,,
+260,2,,Heyah WAP,WAP,http://wap.heyah.pl,,213.158.194.229:8080,heyah.pl,heyah,heyah
+260,2,,Era MMS,MMS,,http://mms.era.pl/servlets/mms,213.158.194.226:8080,eramms,,
+260,2,,Heyah MMS,MMS,,http://mms.heyah.pl/servlets/mms,213.158.194.226:8080,heyahmms,heyah,heyah
+260,2,,Era JAVA,DATA,,,,erainternet,,
+260,2,,Heyah Internet,DATA,,,,heyah.pl,heyah,heyah
+260,2,MVNO_POLAND_ERA,Era Internet,WAP,http://wap.era.pl,,213.158.194.229:8080,erainternet,,
+260,2,MVNO_POLAND_ERA,Era MMS,MMS,,http://mms.era.pl/servlets/mms,213.158.194.226:8080,eramms,,
+260,2,MVNO_POLAND_ERA,Era JAVA,DATA,,,,erainternet,,
+260,2,MVNO_POLAND_HEYAH,Heyah WAP,WAP,http://wap.heyah.pl,,213.158.194.229:8080,heyah.pl,heyah,heyah
+260,2,MVNO_POLAND_HEYAH,Heyah MMS,MMS,,http://mms.heyah.pl/servlets/mms,213.158.194.226:8080,heyahmms,heyah,heyah
+260,2,MVNO_POLAND_HEYAH,Heyah Internet,DATA,,,,heyah.pl,heyah,heyah
+260,3,,Orange WAP,WAP,http://mobile.orange.pl,,192.168.6.102:8080,wap,wap,wap
+260,3,,Orange MMS,MMS,,http://mms.orange.pl,192.168.6.104:8080,mms,mms,mms
+260,3,,Orange Internet,DATA,,,,internet,internet,internet
+260,6,,Play WAP,WAP,http://wap.playmobile.pl,,10.10.25.5:8080,wap,,
+260,6,,Play MMS,MMS,,http://10.10.28.164/mms/wapenc,10.10.25.5:8080,mms,,
+260,6,,Play Internet,DATA,,,,internet,,
+262,1,,T-Mobile Internet,WAP,http://www.t-zones.de,,,internet.t-mobile,t-mobile,tm
+262,1,,Jamba! GPRS,WAP,http://wap.jamba.de/,,193.168.128.127:8080,wap.debitel.de,debitel,wap
+262,1,,T-Mobile MMS,MMS,,http://mms.t-mobile.de/servlets/mms,172.28.23.131:8008,internet.t-mobile,t-mobile,tm
+262,1,MVNO_GERMANY_TMO,T-Mobile Internet,WAP,http://www.t-zones.de,,,internet.t-mobile,t-mobile,tm
+262,1,MVNO_GERMANY_TMO,T-Mobile MMS,MMS,,http://mms.t-mobile.de/servlets/mms,172.28.23.131:8008,internet.t-mobile,t-mobile,tm
+262,1,MVNO_GERMANY_TMO_DEBITEL,Jamba! GPRS,WAP,http://wap.jamba.de/,,193.168.128.127:8080,wap.debitel.de,debitel,wap
+262,1,MVNO_GERMANY_TMO_DEBITEL,T-Mobile Internet,WAP,http://www.t-zones.de,,,internet.t-mobile,t-mobile,tm
+262,1,MVNO_GERMANY_TMO_DEBITEL,T-Mobile MMS,MMS,,http://mms.t-mobile.de/servlets/mms,172.28.23.131:8008,internet.t-mobile,t-mobile,tm
+262,1,OPERATOR_GERMANY_TMOBILE_WNW_GPRS,T-Mobile Internet,WAP,http://www.t-mobile-favoriten.de/,,,internet.t-mobile,t-mobile,tm
+262,1,OPERATOR_GERMANY_TMOBILE_WNW_GPRS,T-Mobile MMS,MMS,,http://mms.t-mobile.de/servlets/mms,172.28.23.131:8008,internet.t-mobile,t-mobile,tm
+262,2,,VF DE live!,WAP,http://live.vodafone.com,,139.7.29.1:80,wap.vodafone.de,,
+262,2,,VF DE live! Secure,WAP,http://live.vodafone.com,,139.7.29.1:9203,wap.vodafone.de,,
+262,2,,Jamba! GPRS,WAP,http://wap.jamba.de/,,193.168.128.127:8080,wap.debitel.de,debitel,wap
+262,2,,VF DE MMS,MMS,,http://139.7.24.1/servlets/mms,139.7.29.17:80,event.vodafone.de,,
+262,2,,VF DE-MMS,MMS,,http://139.7.24.1/servlets/mms,139.7.29.17:80,event.vodafone.de,,
+262,2,MVNO_GERMANY_VODAFONE,VF DE live!,WAP,http://live.vodafone.com,,139.7.29.1:80,wap.vodafone.de,,
+262,2,MVNO_GERMANY_VODAFONE,VF DE live! Secure,WAP,http://live.vodafone.com,,139.7.29.1:9203,wap.vodafone.de,,
+262,2,MVNO_GERMANY_VODAFONE,VF DE MMS,MMS,,http://139.7.24.1/servlets/mms,139.7.29.17:80,event.vodafone.de,,
+262,2,MVNO_GERMANY_VODAFONE_DEBITEL,Jamba! GPRS,WAP,http://wap.jamba.de/,,193.168.128.127:8080,wap.debitel.de,debitel,wap
+262,2,MVNO_GERMANY_VODAFONE_DEBITEL,VF DE live! Secure,WAP,http://live.vodafone.com,,139.7.29.1:9203,wap.vodafone.de,,
+262,2,MVNO_GERMANY_VODAFONE_DEBITEL,VF DE live!,WAP,http://live.vodafone.com,,139.7.29.1:80,wap.vodafone.de,,
+262,2,MVNO_GERMANY_VODAFONE_DEBITEL,VF DE-MMS,MMS,,http://139.7.24.1/servlets/mms,139.7.29.17:80,event.vodafone.de,,
+262,3,,E-Plus WAP GPRS,WAP,http://wap.eplus.de/,,212.23.97.9:8080,wap.eplus.de,eplus,wap
+262,3,,E-Plus WEB,WAP,http://wap.eplus.de,,,internet.eplus.de,eplus,internet
+262,3,,Jamba! GPRS,WAP,http://wap.jamba.de/,,193.168.128.127:8080,wap.debitel.de,debitel,wap
+262,3,,E-Plus MMS,MMS,,http://mms/eplus/,212.23.97.153:5080,mms.eplus.de,mms,eplus
+262,3,,E-Plus WAP,DATA,,,212.23.97.9:8080,wap.eplus.de,eplus,wap
+262,3,MVNO_GERMANY_EPLUS,E-Plus WAP GPRS,WAP,http://wap.eplus.de/,,212.23.97.9:8080,wap.eplus.de,eplus,wap
+262,3,MVNO_GERMANY_EPLUS,E-Plus WEB,WAP,http://wap.eplus.de,,,internet.eplus.de,eplus,internet
+262,3,MVNO_GERMANY_EPLUS,E-Plus MMS,MMS,,http://mms/eplus/,212.23.97.153:5080,mms.eplus.de,mms,eplus
+262,3,MVNO_GERMANY_EPLUS,E-Plus WAP,DATA,,,212.23.97.9:8080,wap.eplus.de,eplus,wap
+262,3,MVNO_GERMANY_EPLUS_DEBITEL,Jamba! GPRS,WAP,http://wap.jamba.de/,,193.168.128.127:8080,wap.debitel.de,debitel,wap
+262,3,MVNO_GERMANY_EPLUS_DEBITEL,E-Plus WEB,WAP,http://wap.eplus.de,,,internet.eplus.de,eplus,internet
+262,3,MVNO_GERMANY_EPLUS_DEBITEL,E-Plus WAP GPRS,WAP,http://wap.eplus.de/,,212.23.97.9:8080,wap.eplus.de,eplus,wap
+262,3,MVNO_GERMANY_EPLUS_DEBITEL,E-Plus MMS,MMS,,http://mms/eplus/,212.23.97.153:5080,mms.eplus.de,mms,eplus
+262,3,MVNO_GERMANY_EPLUS_DEBITEL,E-Plus WAP,DATA,,,212.23.97.9:8080,wap.eplus.de,eplus,wap
+262,7,,o2 WAP,WAP,http://m.o2online.de,,82.113.100.5:8080,internet,,
+262,7,,o2 WAP LOOP,WAP,http://m.o2online.de,,82.113.100.6:8080,pinternet.interkom.de,,
+262,7,,Jamba! GPRS,WAP,http://wap.jamba.de/,,193.168.128.127:8080,wap.debitel.de,debitel,wap
+262,7,,o2 MMS,MMS,,http://10.81.0.7:8002/,82.113.100.5:8080,internet,,
+262,7,,o2 MMS LOOP,MMS,,http://10.81.0.7:8002/,82.113.100.6:8080,pinternet.interkom.de,,
+262,7,,debitel-o2-MMS,MMS,,http://10.81.0.7:8002/,193.168.128.127:8080,wap.debitel.de,debitel,mms
+262,7,,o2 Internet,DATA,,,,internet,,
+262,7,MVNO_GERMANY_O2,o2 WAP,WAP,http://m.o2online.de,,82.113.100.5:8080,internet,,
+262,7,MVNO_GERMANY_O2,o2 WAP LOOP,WAP,http://m.o2online.de,,82.113.100.6:8080,pinternet.interkom.de,,
+262,7,MVNO_GERMANY_O2,o2 MMS,MMS,,http://10.81.0.7:8002/,82.113.100.5:8080,internet,,
+262,7,MVNO_GERMANY_O2,o2 MMS LOOP,MMS,,http://10.81.0.7:8002/,82.113.100.6:8080,pinternet.interkom.de,,
+262,7,MVNO_GERMANY_O2,o2 Internet,DATA,,,,internet,,
+262,7,MVNO_GERMANY_O2_DEBITEL,Jamba! GPRS,WAP,http://wap.jamba.de/,,193.168.128.127:8080,wap.debitel.de,debitel,wap
+262,7,MVNO_GERMANY_O2_DEBITEL,o2 WAP,WAP,http://m.o2online.de,,82.113.100.5:8080,internet,,
+262,7,MVNO_GERMANY_O2_DEBITEL,o2 WAP LOOP,WAP,http://m.o2online.de,,82.113.100.6:8080,pinternet.interkom.de,,
+262,7,MVNO_GERMANY_O2_DEBITEL,debitel-o2-MMS,MMS,,http://10.81.0.7:8002/,193.168.128.127:8080,wap.debitel.de,debitel,mms
+262,7,MVNO_GERMANY_O2_DEBITEL,o2 Internet,DATA,,,,internet,,
+262,8,,o2 WAP,WAP,http://m.o2online.de,,82.113.100.5:8080,internet,,
+262,8,,o2 WAP LOOP,WAP,http://m.o2online.de,,82.113.100.6:8080,pinternet.interkom.de,,
+262,8,,Jamba! GPRS,WAP,http://wap.jamba.de/,,193.168.128.127:8080,wap.debitel.de,debitel,wap
+262,8,,o2 MMS,MMS,,http://10.81.0.7:8002/,82.113.100.5:8080,internet,,
+262,8,,o2 MMS LOOP,MMS,,http://10.81.0.7:8002/,82.113.100.6:8080,pinternet.interkom.de,,
+262,8,,debitel-o2-MMS,MMS,,http://10.81.0.7:8002/,193.168.128.127:8080,wap.debitel.de,debitel,mms
+262,8,,o2 Internet,DATA,,,,internet,,
+262,8,MVNO_GERMANY_O2,o2 WAP,WAP,http://m.o2online.de,,82.113.100.5:8080,internet,,
+262,8,MVNO_GERMANY_O2,o2 WAP LOOP,WAP,http://m.o2online.de,,82.113.100.6:8080,pinternet.interkom.de,,
+262,8,MVNO_GERMANY_O2,o2 MMS,MMS,,http://10.81.0.7:8002/,82.113.100.5:8080,internet,,
+262,8,MVNO_GERMANY_O2,o2 MMS LOOP,MMS,,http://10.81.0.7:8002/,82.113.100.6:8080,pinternet.interkom.de,,
+262,8,MVNO_GERMANY_O2,o2 Internet,DATA,,,,internet,,
+262,8,MVNO_GERMANY_O2_DEBITEL,Jamba! GPRS,WAP,http://wap.jamba.de/,,193.168.128.127:8080,wap.debitel.de,debitel,wap
+262,8,MVNO_GERMANY_O2_DEBITEL,o2 WAP,WAP,http://m.o2online.de,,82.113.100.5:8080,internet,,
+262,8,MVNO_GERMANY_O2_DEBITEL,o2 WAP LOOP,WAP,http://m.o2online.de,,82.113.100.6:8080,pinternet.interkom.de,,
+262,8,MVNO_GERMANY_O2_DEBITEL,debitel-o2-MMS,MMS,,http://10.81.0.7:8002/,193.168.128.127:8080,wap.debitel.de,debitel,mms
+262,8,MVNO_GERMANY_O2_DEBITEL,o2 Internet,DATA,,,,internet,,
+268,1,,Vodafone live!,WAP,http://live.vodafone.com,,172.16.19.50:8799,wap.vodafone.pt,wap,wap
+268,1,,Vodafone MMS,MMS,,http://mms/servlets/mms,213.30.27.63:8799,vas.vodafone.pt,vas,vas
+268,3,,PortalOptimus,WAP,http://portal.optimus.pt,,62.169.66.5:8799,umts,,
+268,3,,Optimus WAP,WAP,http://wap.optimus.pt,,62.169.66.5:8799,umts,,
+268,3,,Optimus MMS,MMS,,http://mmsc:10021/mmsc,62.169.66.1:8799,mms,,
+268,3,,Optimus,DATA,,,62.169.66.5:8799,umts,,
+268,3,OPERATOR_PORTUGAL_PORTAL_OPTIMUS_GPRS,PortalOptimus,DATA,,,62.169.66.5:8799,portaloptimus,optimus,wwwap
+268,3,OP_PORTUGAL_OPTIMUS,Optimus,DATA,,,62.169.66.5:8799,umts,,
+268,3,OP_PORTUGAL_OPTIMUS,PortalOptimus,DATA,,,62.169.66.5:8799,umts,,
+268,6,,i9,WAP,http://t.tmn.pt,,172.30.2.22:80,wap.tmn.pt,tmn,tmnnet
+268,6,,MMS TMN,MMS,,http://mmsc/,10.111.2.16:8080,mmsc.tmn.pt,tmn,tmnnet
+268,6,,Acesso TMN,DATA,,,172.30.2.22:80,wap.tmn.pt,tmn,tmnnet
+268,6,,TMN i9,DATA,,,172.30.2.22:80,wap.tmn.pt,tmn,tmnnet
+268,6,,myTMN,DATA,,,172.30.2.2:80,wap.tmn.pt,tmn,tmnnet
+268,6,OPERATOR_PORTUGAL_TMN_GPRS,i9,WAP,http://t.tmn.pt,,172.30.2.22:80,wap.tmn.pt,tmn,tmnnet
+268,6,OPERATOR_PORTUGAL_TMN_GPRS,MMS TMN,MMS,,http://mmsc/,10.111.2.16:8080,mmsc.tmn.pt,tmn,tmnnet
+270,1,,Luxgsm,WAP,http://wap.lu,,,wap.pt.lu,wap,wap
+270,1,,LUXGSM WAP,WAP,http://wap.lu,,194.154.192.98:8080,wap.pt.lu,wap,wap
+270,1,,Vodafone live,WAP,http://live.vodafone.com,,194.154.192.98:8080,vf.pt.lu,ept,ept
+270,1,,LUXGSM MMS,MMS,,http://mmsc.pt.lu,194.154.192.88:9201,mms.pt.lu,mms,mms
+270,77,,Tango Internet,WAP,http://wap.tango.lu,,130.244.196.90:8080,internet,tango,tango
+270,77,,TANGO MMS,MMS,,http://mms.tango.lu,212.66.75.3:8080,mms,tango,tango
+270,77,,tango,DATA,,,130.244.196.90:8080,internet,tango,tango
+270,99,,VoxGSM,WAP,http://wap.vox.lu,,,vox.lu,vox,vox
+270,99,,VOX WAP,WAP,http://wap.vox.lu,,212.88.139.44:8080,vox.lu,,
+270,99,,VOX MMS,MMS,,http://mms.vox.lu,212.88.139.44:9201,vox.lu,vox,vox
+272,1,,Vodafone Live!,WAP,http://live.vodafone.com,,10.24.59.100:80,live.vodafone.com,,
+272,1,,Vodafone MISP,WAP,http://live.vodafone.com,,,isp.vodafone.ie,vodafone,vodafone
+272,1,,Vodafone MMS,MMS,,http://www.vodafone.ie/mms,10.24.59.200:80,mms.vodafone.net,,
+272,2,,O2 IE Mobile Internet,MMS,http://www.o2.ie,http://mmsc.mms.o2.ie:8002/,62.40.32.40:8080,internet,,
+272,3,,Meteor WAP,WAP,http://wap.mymeteor.ie,,10.85.85.85:8799,wap.mymeteor.ie,my,wap
+272,3,,Meteor MMS,MMS,,http://mms.mymeteor.ie,10.85.85.85:8799,mms.mymeteor.ie,my,wap
+272,3,OPERATOR_IRELAND_METEOR,Meteor WAP,WAP,http://wap.mymeteor.ie,,10.85.85.85:8799,wap.mymeteor.ie,my,wap
+272,3,OPERATOR_IRELAND_METEOR,Meteor Data,WAP,http://www.google.ie ,,,data.mymeteor.ie ,my,wap
+272,3,OPERATOR_IRELAND_METEOR,Meteor MMS,MMS,,http://mms.mymeteor.ie,10.85.85.85:8799,mms.mymeteor.ie,my,wap
+272,5,,Vodafone MMS,MMS,,http://mms.um.3ireland.ie:10021/mmsc,mms.3ireland.ie:8799,3ireland.ie,,
+284,1,,M-Tel WAP GPRS ,WAP,http://live.mtel.bg,,213.226.6.65:8080,wap-gprs.mtel.bg,,
+284,1,,M-Tel INTERNET GPRS,WAP,www.mtel.bg,,,wap-gprs.mtel.bg,,
+284,1,,M-Tel MMS Data,MMS,,http://mmsc/,10.150.0.33:8080,mms-gprs.mtel.bg,mtel,mtel
+284,1,,M-Tel Data,DATA,,,213.226.6.65:8080,wap-gprs.mtel.bg,,
+284,3,,vivatel WAP GPRS,WAP,http://wap.vivatel.bg,,192.168.123.123:8080,wap.vivatel.bg,Wap,Wap
+284,3,,vivatel MMS GPRS,MMS,,http://mmsc.vivatel.bg,192.168.123.123:8080,mms.vivatel.bg,mms,mms
+284,5,,GLOBUL WAP GPRS,WAP,http://wap.globul.bg,,192.168.88.11:8004,globul,globul,globul
+284,5,,GloBul MMS GPRS,MMS,,http://mmsc1.mms.globul.bg:8002/,192.168.87.11:8004,mms.globul.bg,mms,mms
+284,5,,GloBul WAP GPRS,DATA,,,192.168.88.11:8004,internet.globul.bg,globul,globul
+286,1,,TURKCELL WAP,WAP,http://wap.turkcell.com.tr,,212.252.234.168:8080,wap,gprs,gprs
+286,1,,TURKCELL MMS,MMS,,http://mms.turkcell.com.tr/servlets/mms,212.252.169.217:8080,mms,mms,mms
+286,1,,TCELL JAVA GPRS,DATA,,,212.252.234.168:9201,wap,gprs,gprs
+286,1,,TCELL WAP_GPRS,DATA,,,,wap,gprs,gprs
+286,2,,TELSIMWAP_GPRS,WAP,http://telsimwap.com,,,telsim,telsim,telsim
+286,2,,Vodafone Live,WAP,http://live.vodafone.com,,212.65.136.226:9401,vflive,vodafone,vodafone
+286,2,,TELSIM MMS,MMS,,http://mms:6001/MM1Servlet,217.31.233.18:9201,mms,mms,mms
+286,2,,VODAFONE MMS,MMS,,http://217.31.233.18:6001/MM1Servlet,217.31.233.18:9401,mms,vodafone,vodafone
+286,2,,VODAFONE JAVA,DATA,,,212.65.136.226:9401,wap,vodafone,vodafone
+286,2,,VODAFONE WAP_GPRS,DATA,,,212.65.136.226:9401,wap,vodafone,vodafone
+286,3,,AVEA WAP GPRS,WAP,http://wap.avea.com.tr,,213.161.151.201:8080,wap,wap,wap
+286,3,,AVEA MMS,MMS,,http://mms.avea.com.tr/servlets/mms,213.161.151.201:9201,mms,mms,mms
+286,3,,AVEA JAVA GPRS,DATA,,,213.161.151.201:8080,wap,wap,wap
+286,3,,AVEA WAP_GPRS,DATA,,,,wap,wap,wap
+293,40,,Vodafone live!,WAP,http://wap.simobil.si,,80.95.224.17:9201,internet.simobil.si,simobil,internet
+293,40,,Si.mobil MMS,MMS,,http://mmc/,80.95.224.46:9201,mms.simobil.si,simobil,internet
+293,40,,Si.mobil GPRS,DATA,,,,internet.simobil.si,simobil,internet
+293,41,,Planet,WAP,http://planet.mobitel.si,,213.229.249.40:8080,internet,mobitel,internet
+293,41,,Mobitel MMS,MMS,,http://mms.mobitel.si/servlets/mms,213.229.249.40:8080,internet,mobitel,internet
+293,41,,Mobitel,DATA,,,,internet,mobitel,internet
+293,70,,TUS INTERNET,WAP,http://wap.tusmobil.si,,91.185.221.85:8080,internet.tusmobil.si,tusmobil,internet
+293,70,,TUS MMS,MMS,,http://mms.tusmobil.si:8002,91.185.221.85:8080,mms.tusmobil.si,tusmobil,mms
+293,70,,TUS Internet,DATA,,,,internet.tusmobil.si,tusmobil,internet
+294,1,,t-zones,WAP,http://wap.t-mobile.com.mk,,,internet,internet,internet
+294,1,,t-zones (Wap 2.0),WAP,http://wap.t-mobile.com.mk,,,internet,internet,internet
+294,1,,t-zones (Wap 1.x),WAP,http://wap.t-mobile.com.mk,,62.162.155.227:9201,wap,wap,wap
+294,1,,TM MK MMS,MMS,,http://mms.t-mobile.com.mk,62.162.155.227:8080,mms,mms,mms
+294,1,OPERATOR_MACEDONIA_TMOBILE_WNW,T-Mobile Internet,WAP,http://t-mobile.com.mk/wnw,,,internet,internet,t-mobile
+294,1,OPERATOR_MACEDONIA_TMOBILE_WNW,TM MK MMS,MMS,,http://mms.t-mobile.com.mk,62.162.155.227:8080,mms,mms,mms
+294,2,,Cosmofon GPRS,WAP,http://www.cosmofon.com.mk,,10.10.10.20:8080,internet,,
+297,2,,t-zones,WAP,http://wap.t-zones-cg.com,,10.0.5.19:8080,internet-prepaid,38167,38167
+297,2,,T-Mobile MMS,MMS,,http://192.168.180.100/servlets/mms,10.0.5.19:8080,mms,38267,38267
+297,2,OPERATOR_SERBIAMONTENEGRO_TMOBILE_POSTPAID_WNW,T-Mobile Internet,WAP,http://www.t-mobile-cg.com/wnw,,10.0.5.19:8080,internet-postpaid,38167,38167
+297,2,OPERATOR_SERBIAMONTENEGRO_TMOBILE_POSTPAID_WNW,T-Mobile MMS,MMS,,http://192.168.180.100/servlets/mms,10.0.5.19:8080,mms,38267,38267
+297,2,OPERATOR_SERBIAMONTENEGRO_TMOBILE_PREPAID_WNW,T-Mobile Internet,WAP,http://www.t-mobile-cg.com/wnw,,10.0.5.19:8080,internet-prepaid,38167,38167
+297,2,OPERATOR_SERBIAMONTENEGRO_TMOBILE_PREPAID_WNW,T-Mobile MMS,MMS,,http://192.168.180.100/servlets/mms,10.0.5.19:8080,mms,38267,38267
+297,3,,Mtel WAP,WAP,http://wap.mtel-cg.com,,172.25.25.23:8080,mtelwap,wap,O68
+302,0,,Multimedia-MMS,MMS,,http://mms.videotron.com/,10.128.1.69:80,media.com,media,mda01
+302,370,,Fido WAP,WAP,http://wap.fido.ca/,,205.151.11.11:80,gwap.fido.ca,,
+302,370,,Fido MMS,MMS,,http://mms.fido.ca/,205.151.11.13:80,mms.fido.ca,,
+302,720,,GoRogers,WAP,http://wap:8582/start.wml,,10.128.1.69:80,goam.com,wapuser1,wap
+302,720,,RogersMedia,MMS,,http://mms.gprs.rogers.com/,10.128.1.69:80,media.com,media,mda01
+310,490,,SunCom Web Link,WAP,http://mobileinternet,,66.150.237.195:8080,mobileinternet,,
+310,490,,Picture Message,MMS,,http://mms.suncom.net:8088/mms,66.150.33.125:8080,mms,,
+334,20,,Ideas Telcel,WAP,http://upaapps.telcel.com:8582/telcelwap.wml,,148.233.151.240:8080,wap.itelcel.com,iesgprs,iesgprs2002
+334,20,,Mensajes Multimedia,MMS,,http://mms.itelcel.com/servlets/mms,148.233.151.240:8080,mms.itelcel.com,mmsgprs,mmsgprs2003
+334,20,,Internet,DATA,,,,internet.itelcel.com,webgprs,webgprs2002
+334,30,,emociÃ³n GPRS,WAP,http://wap.movistar.com.mx,,10.2.20.1:80,wap.movistar.mx,movistar,movistar
+340,1,,Orange CarÃ¯be WAP,WAP,http://wap.orangecaraibe.com,,10.0.0.10:8082,orangewap,orange,orange
+340,1,,WAP Orange GPRS,WAP,http://mobile.orange.pl,,192.168.6.102:8080,wap,wap,wap
+340,1,,Orange World,WAP,http://wap.orangecaraibe.com/,,10.0.0.10:8082,orangewap,orange,orange
+340,1,,Orange MMS,MMS,,http://193.251.160.246/servlets/mms,10.0.0.10:8082,orangewap,orange,orange
+340,1,OPERATOR_CARAIBE_ORANGE_ORC_GPRS,Orange World,WAP,http://wap.orangecaraibe.com/,,10.0.0.10:8082,orangewap,orange,orange
+340,1,OPERATOR_CARAIBE_ORANGE_ORC_GPRS,Orange MMS,MMS,,http://193.251.160.246/servlets/mms,10.0.0.10:8082,orangewap,orange,orange
+340,20,,Digicel WAP,WAP,http://wap.digicelive.fr,,172.20.6.12:8080,wap.digicelfr.com,wap,wap
+340,20,,Digicel MMS,MMS,,http://mmc.digiceltt.com/servlets/mms,172.20.6.12:9201,mms.digicelfr.com,wap,wap
+370,1,,Orange World,WAP,http://orangeworld,,172.16.126.70:8080,orangeworld,orange,orange
+370,1,,Orange MMS,MMS,,http://mmr.orangewi.com/servlets/mms,172.16.126.70:8080,orangemi,orange,orange
+401,1,,wap.k-mobile,WAP,http://wap.k-mobile.kz,,,wap.k-mobile,@wap.k-mobile,k-mobile
+401,1,,wap.beeline,WAP,http://wap.beeline.kz,,172.27.6.93:8080,wap.beeline.kz,@wap.beeline,beeline
+401,1,,BeeLine_MMS,MMS,,http://mms.beeline.kz/mms/wapenc,172.27.6.93:8080,mms.beeline.kz,@mms.beeline,beeline
+401,1,,JAVA.beeline,DATA,,,,internet.beeline.kz,@internet.beeline,beeline
+401,1,,k-mobile_internet,DATA,,,,internet.k-mobile,,
+401,1,,beeline_internet,DATA,,,,internet.beeline.kz,,
+401,2,,KCELL WAP,WAP,http://wap.kcell.kz,,195.47.255.7:8080,wap,,
+401,2,,Kcell_MMS,MMS,,http://mms.kcell.kz/post,195.47.255.7:8080,mms,,
+401,2,,KCELL JAVA,DATA,,,,internet,,
+401,2,,KCELL_internet,DATA,,,,internet,,
+401,77,,NEO_WAP,WAP,http://wap.neogsm.kz,,10.1.26.10:8080,wap,,
+401,77,,NEO_MMS,MMS,,http://mms.neogsm.kz/mms/wapenc,10.1.26.10:8080,mms,,
+401,77,,NEO_JAVA,DATA,,,,internet,,
+401,77,,NEO_internet,DATA,,,,internet,,
+404,1,,Hutch_GPRS,WAP,http://www.hutchworld.co.in,,10.10.1.100:9201,portalnmms,,
+404,1,,HUTCH_MMS,MMS,,http://mms1.hutchworld.co.in/mms/,10.10.1.100:9201,portalnmms,,
+404,1,,Hutch GPRS,DATA,,,10.10.1.100:9201,portalnmms,,
+404,2,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+404,2,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+404,2,,MMS,MMS,,http://100.1.201.171:10021/mmsc,100.1.201.172:9201,airtelmms.com,,
+404,3,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+404,3,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+404,3,,MMS,MMS,,http://100.1.201.171:10021/mmsc,100.1.201.172:9201,airtelmms.com,,
+404,4,,IDEA GPRS,WAP,http://www.ideafresh.com,,10.4.42.15:8080,imis,,
+404,4,,IDEA MMS,MMS,,http://10.4.42.21:8002,10.4.42.15:8080,mmsc,,
+404,5,,Hutch_GPRS,WAP,http://www.hutchworld.co.in,,10.10.1.100:9201,portalnmms,,
+404,5,,HUTCH_MMS,MMS,,http://mms1.hutchworld.co.in/mms/,10.10.1.100:9201,portalnmms,,
+404,5,,Hutch GPRS,DATA,,,10.10.1.100:9201,portalnmms,,
+404,6,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+404,6,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+404,7,,IDEA GPRS,WAP,http://www.ideafresh.com,,10.4.42.15:8080,imis,,
+404,7,,IDEA MMS,MMS,,http://10.4.42.21:8002,10.4.42.15:8080,mmsc,,
+404,10,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+404,10,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+404,10,,MMS,MMS,,http://100.1.201.171:10021/mmsc,100.1.201.172:9201,airtelmms.com,,
+404,11,,Hutch_GPRS,WAP,http://www.hutchworld.co.in,,10.10.1.100:9201,portalnmms,,
+404,11,,HUTCH_MMS,MMS,,http://mms1.hutchworld.co.in/mms/,10.10.1.100:9201,portalnmms,,
+404,11,,Hutch GPRS,DATA,,,10.10.1.100:9201,portalnmms,,
+404,12,,IDEA GPRS,WAP,http://www.ideafresh.com,,10.4.42.15:8080,imis,,
+404,12,,IDEA MMS,MMS,,http://10.4.42.21:8002,10.4.42.15:8080,mmsc,,
+404,13,,Hutch_GPRS,WAP,http://www.hutchworld.co.in,,10.10.1.100:9201,portalnmms,,
+404,13,,HUTCH_MMS,MMS,,http://mms1.hutchworld.co.in/mms/,10.10.1.100:9201,portalnmms,,
+404,13,,Hutch GPRS,DATA,,,10.10.1.100:9201,portalnmms,,
+404,15,,Hutch_GPRS,WAP,http://www.hutchworld.co.in,,10.10.1.100:9201,portalnmms,,
+404,15,,HUTCH_MMS,MMS,,http://mms1.hutchworld.co.in/mms/,10.10.1.100:9201,portalnmms,,
+404,15,,Hutch GPRS,DATA,,,10.10.1.100:9201,portalnmms,,
+404,19,,IDEA GPRS,WAP,http://www.ideafresh.com,,10.4.42.15:8080,imis,,
+404,19,,IDEA MMS,MMS,,http://10.4.42.21:8002,10.4.42.15:8080,mmsc,,
+404,20,,Hutch_GPRS,WAP,http://www.hutchworld.co.in,,10.10.1.100:9201,portalnmms,,
+404,20,,HUTCH_MMS,MMS,,http://mms1.hutchworld.co.in/mms/,10.10.1.100:9201,portalnmms,,
+404,20,,Hutch GPRS,DATA,,,10.10.1.100:9201,portalnmms,,
+404,22,,IDEA GPRS,WAP,http://www.ideafresh.com,,10.4.42.15:8080,imis,,
+404,22,,IDEA MMS,MMS,,http://10.4.42.21:8002,10.4.42.15:8080,mmsc,,
+404,24,,IDEA GPRS,WAP,http://www.ideafresh.com,,10.4.42.15:8080,imis,,
+404,24,,IDEA MMS,MMS,,http://10.4.42.21:8002,10.4.42.15:8080,mmsc,,
+404,27,,Hutch_GPRS,WAP,http://www.hutchworld.co.in,,10.10.1.100:9201,portalnmms,,
+404,27,,Hutch GPRS,DATA,,,10.10.1.100:9201,portalnmms,,
+404,30,,Hutch_GPRS,WAP,http://www.hutchworld.co.in,,10.10.1.100:9201,portalnmms,,
+404,30,,HUTCH_MMS,MMS,,http://mms1.hutchworld.co.in/mms/,10.10.1.100:9201,portalnmms,,
+404,30,,Hutch GPRS,DATA,,,10.10.1.100:9201,portalnmms,,
+404,31,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+404,31,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+404,31,,MMS,MMS,,http://100.1.201.171:10021/mmsc,100.1.201.172:9201,airtelmms.com,,
+404,40,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+404,40,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+404,40,,MMS,MMS,,http://100.1.201.171:10021/mmsc,100.1.201.172:9201,airtelmms.com,,
+404,43,,Hutch_GPRS,WAP,http://www.hutchworld.co.in,,10.10.1.100:9201,portalnmms,,
+404,43,,Hutch GPRS,DATA,,,10.10.1.100:9201,portalnmms,,
+404,45,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+404,45,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+404,45,,MMS,MMS,,http://100.1.201.171:10021/mmsc,100.1.201.172:9201,airtelmms.com,,
+404,46,,Hutch_GPRS,WAP,http://www.hutchworld.co.in,,10.10.1.100:9201,portalnmms,,
+404,46,,Hutch GPRS,DATA,,,10.10.1.100:9201,portalnmms,,
+404,49,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+404,49,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+404,49,,MMS,MMS,,http://100.1.201.171:10021/mmsc,100.1.201.172:9201,airtelmms.com,,
+404,56,,IDEA GPRS,WAP,http://www.ideafresh.com,,10.4.42.15:8080,imis,,
+404,56,,IDEA MMS,MMS,,http://10.4.42.21:8002,10.4.42.15:8080,mmsc,,
+404,60,,Hutch_GPRS,WAP,http://www.hutchworld.co.in,,10.10.1.100:9201,portalnmms,,
+404,60,,HUTCH_MMS,MMS,,http://mms1.hutchworld.co.in/mms/,10.10.1.100:9201,portalnmms,,
+404,60,,Hutch GPRS,DATA,,,10.10.1.100:9201,portalnmms,,
+404,70,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+404,70,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+404,78,,IDEA GPRS,WAP,http://www.ideafresh.com,,10.4.42.15:8080,imis,,
+404,78,,IDEA MMS,MMS,,http://10.4.42.21:8002,10.4.42.15:8080,mmsc,,
+404,82,,IDEA GPRS,WAP,http://www.ideafresh.com,,10.4.42.15:8080,imis,,
+404,82,,IDEA MMS,MMS,,http://10.4.42.21:8002,10.4.42.15:8080,mmsc,,
+404,84,,Hutch_GPRS,WAP,http://www.hutchworld.co.in,,10.10.1.100:9201,portalnmms,,
+404,84,,HUTCH_MMS,MMS,,http://mms1.hutchworld.co.in/mms/,10.10.1.100:9201,portalnmms,,
+404,84,,Hutch GPRS,DATA,,,10.10.1.100:9201,portalnmms,,
+404,86,,Hutch_GPRS,WAP,http://www.hutchworld.co.in,,10.10.1.100:9201,portalnmms,,
+404,86,,HUTCH_MMS,MMS,,http://mms1.hutchworld.co.in/mms/,10.10.1.100:9201,portalnmms,,
+404,86,,Hutch GPRS,DATA,,,10.10.1.100:9201,portalnmms,,
+404,87,,IDEA GPRS,WAP,http://www.ideafresh.com,,10.4.42.15:8080,imis,,
+404,87,,IDEA MMS,MMS,,http://10.4.42.21:8002,10.4.42.15:8080,mmsc,,
+404,88,,Hutch_GPRS,WAP,http://www.hutchworld.co.in,,10.10.1.100:9201,portalnmms,,
+404,88,,HUTCH_MMS,MMS,,http://mms1.hutchworld.co.in/mms/,10.10.1.100:9201,portalnmms,,
+404,88,,Hutch GPRS,DATA,,,10.10.1.100:9201,portalnmms,,
+404,89,,IDEA GPRS,WAP,http://www.ideafresh.com,,10.4.42.15:8080,imis,,
+404,89,,IDEA MMS,MMS,,http://10.4.42.21:8002,10.4.42.15:8080,mmsc,,
+404,90,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+404,90,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+404,90,,MMS,MMS,,http://100.1.201.171:10021/mmsc,100.1.201.172:9201,airtelmms.com,,
+404,92,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+404,92,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+404,92,,MMS,MMS,,http://100.1.201.171:10021/mmsc,100.1.201.172:9201,airtelmms.com,,
+404,93,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+404,93,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+404,93,,MMS,MMS,,http://100.1.201.171:10021/mmsc,100.1.201.172:9201,airtelmms.com,,
+404,94,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+404,94,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+404,94,,MMS,MMS,,http://100.1.201.171:10021/mmsc,100.1.201.172:9201,airtelmms.com,,
+404,95,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+404,95,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+404,95,,MMS,MMS,,http://100.1.201.171:10021/mmsc,100.1.201.172:9201,airtelmms.com,,
+404,96,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+404,96,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+404,96,,MMS,MMS,,http://100.1.201.171:10021/mmsc,100.1.201.172:9201,airtelmms.com,,
+404,97,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+404,97,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+404,97,,MMS,MMS,,http://100.1.201.171:10021/mmsc,100.1.201.172:9201,airtelmms.com,,
+404,98,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+404,98,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+404,98,,MMS,MMS,,http://100.1.201.171:10021/mmsc,100.1.201.172:9201,airtelmms.com,,
+405,51,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+405,51,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+405,52,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+405,52,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+405,53,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+405,53,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+405,54,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+405,54,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+405,55,,AIRTEL LIVE,WAP,http://live.airtelworld.com,,100.1.200.99:8080,airtelfun.com,,
+405,55,,Mobile Office,WAP,http://www.google.com,,202.56.231.117:8080,airtelgprs.com,,
+405,66,,Hutch_GPRS,WAP,http://www.hutchworld.co.in,,10.10.1.100:9201,portalnmms,,
+405,66,,Hutch GPRS,DATA,,,10.10.1.100:9201,portalnmms,,
+405,67,,Hutch_GPRS,WAP,http://www.hutchworld.co.in,,10.10.1.100:9201,portalnmms,,
+405,67,,Hutch GPRS,DATA,,,10.10.1.100:9201,portalnmms,,
+410,1,,Mobilink Wap,WAP,http://wap.mobilinkworld.com,,172.24.97.29:9201,wap.mobilinkworld.com,mobilink,mobilink
+410,1,,Mobilink postpaid - GPRS,WAP,http://wap.google.com,,,wap.mobilinkworld.com,,
+410,1,,Mobilink prepaid - GPRS,WAP,http://wap.google.com,,,jazzwap.mobilinkworld.com,,
+410,3,,Ufone Wap,WAP,http://wap.ufone.com,,172.16.13.26:9201,ufone.wap,ufone,ufone
+410,3,,Ufone - GPRS,DATA,,,,ufone.wap,ufone,ufone
+410,6,,Telenor Wap,WAP,http://waptelenor.com.pk,,172.18.19.11:9201,Wap,Telenor,Telenor
+410,6,,Telenor - GPRS,DATA,,,,Wap,Telenor,Telenor
+410,7,,Warid Wap,WAP,http://wap.waridlive.com,,10.4.2.1:9201,wap.warid,,
+410,7,,Warid - GPRS,DATA,,,,wap.warid,,
+420,1,,STC - GPRS,WAP,http://jawalnet.net.sa,,10.224.3.247:8080,jawalnet.com.sa,,
+420,3,,Mobily - GPRS,WAP,http://wap.mobily.com.sa/mobileportal,,,wap1,,
+424,1,,ewap,WAP,http://mobile.weyak.ae,,10.12.0.32:8080,ewap,ewap,ewap
+424,1,,Etisalat postpaid - GPRS,WAP,http://www.ewap.co.ae,,,ewap,ewap,ewap
+424,1,,Etisalat prepaid - GPRS,WAP,http://www.ewap.co.ae,,,waselewap,ewap,ewap
+424,1,,etisalat MMS,MMS,,http://mms/servlets/mms,10.12.0.30:8080,mms,mms,mms
+424,2,,ewap,WAP,http://mobile.weyak.ae,,10.12.0.32:8080,ewap,ewap,ewap
+424,2,,Etisalat postpaid - GPRS,WAP,http://www.ewap.co.ae,,,ewap,ewap,ewap
+424,2,,Etisalat prepaid - GPRS,WAP,http://www.ewap.co.ae,,,waselewap,ewap,ewap
+424,2,,etisalat MMS,MMS,,http://mms/servlets/mms,10.12.0.30:8080,mms,mms,mms
+424,3,,MyWorld,WAP,http://myworld.du.ae,,10.19.18.4:8080,du,,
+424,3,,du MMS,MMS,,http://mms.du.ae,10.19.18.4:8080,du,,
+434,4,,Beeline-Uz-GPRSWAP,WAP,http://wap.beeline.uz,,172.30.30.166:8080,wap.beeline.uz,beeline,beeline
+434,4,,Beeline-Uz-MMS,MMS,,http://mms,172.30.30.166:8080,mms.beeline.uz,beeline,beeline
+434,4,,Beeline-Uz Internet,DATA,,,,internet.beeline.uz,beeline,beeline
+434,4,,Beeline_internet,DATA,,,,internet.beeline.uz,beeline,beeline
+434,5,,UCELL WAPGPRS,WAP,http://www.ucell.uz,,10.64.164.10:8080,wap,,
+434,5,,UCELL-MMS,MMS,,http://mmsc:8002/,10.64.164.10:8080,mms,,
+434,5,,Ucell Internet,DATA,,,,internet,,
+434,5,,UCELL_internet,DATA,,,,internet,,
+434,7,,MTS-Uzb-GPRSWAP,WAP,http://wap.mts.uz,,10.10.0.10:8080,wap.mts.uz,,
+434,7,,MTS-Uzb-MMS,MMS,,http://mmsc/was,10.10.0.10:8080,mms.mts.uz,,
+434,7,,MTS-Uzb Internet,DATA,,,,net.mts.uz,mts,mts
+434,7,,MTS_internet,DATA,,,,internet,,
+450,0,,test bed-Intr - WAP,WAP,http://203.248.152.91/wap,,,qe,lge,lge
+450,0,,test bed-now - WAP,WAP,http://203.248.152.91/wap,,,qe,lge,lge
+450,0,,test bed-open - WAP,WAP,http://203.248.152.91/wap,,,tb,lge,lge
+450,0,,test bed-Intr - MMS,MMS,,http://203.229.247.29/lgeqe,203.229.247.28:8000,qe,lge,lge
+450,0,,test bed-open - MMS,MMS,,http://203.229.247.50:8088/mms,203.229.247.51:80,tb,lge,lge
+450,0,,test bed-now - MMS,MMS,,http://125.141.31.131:80/lge=lge,203.229.247.28:80,qe,lge,lge
+450,0,,test bed-Intr - STREAMING,DATA,,,,qe,lge,lge
+450,0,,test bed-now - STREAMING,DATA,,,,qe,lge,lge
+450,0,,test bed-open - STREAMING,DATA,,,,tb,lge,lge
+452,1,,Mobi-wap-gprs 1,WAP,http://wap.mobifone.com.vn,,,m-wap,mms,mms
+452,1,,Mobi-wap-gprs 2,WAP,http://wap.mobifone.com.vn,,203.162.21.114:9201,m-wap,mms,mms
+452,1,,Mobi-gprs-mms,MMS,,http://203.162.21.114/mmsc,203.162.21.114:9201,m-i090,mms,mms
+452,1,,Mobi-wap-gprs,DATA,,,,m-wap,mms,mms
+452,2,,Vina-wap-gprs,WAP,http://wap.vinaphone.com.vn,,,m3-world,mms,mms
+452,2,,Vina-gprs-mms,MMS,,http://mms.vinaphone.com.vn,10.1.10.46:9201,M3-MMS,mms,mms
+452,4,,Viettel-wap-gprs 1,WAP,http://wap.viettelmobile.com.vn,,,v-internet,,
+452,4,,Viettel-wap-gprs 2,WAP,http://wap.viettelmobile.com.vn,,192.168.233.10:9201,v-wap,,
+452,4,,Viettel-mms,MMS,,http://mms.viettelmobile.com.vn/mms/wapenc,192.168.233.10:9201,v-mms,,
+454,0,,CSL Data,WAP,http://bookmark.hkcsl.com/home,,192.168.59.51:8080,hkcsl,,
+454,0,,CSL MMS,MMS,,http://192.168.58.171:8002,192.168.59.51:8080,hkcsl,,
+454,3,,SmarTone iN! Macau,DATA,,,10.9.9.29:8080,smartgprs,,
+454,4,,3-DB-GPRS,WAP,http://3db.three.com.hk,,10.30.3.151:9201,web-g.three.com.hk,,
+454,4,,3-DB-MMS,MMS,,http://10.30.15.51:10021/mmsc,10.30.15.53:8080,mms-g.three.com.hk,3,1234
+454,6,,SmarTone iN!,WAP,http://wap.smartone-vodafone.com,,10.9.9.9:8080,SmarTone-Vodafone,,
+454,6,,picturemail,MMS,,http://mms.smartone-vodafone.com/server,10.9.9.9:8080,SmarTone-Vodafone,,
+454,10,,NWM Data,WAP,http://wap.nwmobility.com/main.wml,,192.168.111.1:8080,wap,,
+454,10,,NWM MMS,MMS,,http://mmsc.nwmobility.com:8002/,192.168.111.1:8080,mms,,
+454,12,,Peoples GPRS,WAP,http://color.peoples.com.hk,,172.31.31.36:9201,peoples.net,,
+454,12,,CMHK MMS,MMS,,http://mms.peoples.com.hk/mms,172.31.31.36:8080,peoples.mms,,
+454,16,,PCCW_GPRS,WAP,http://wap.pccwmobile.com,,10.131.2.8:8080,pccwdata,,
+454,16,,SUNDAY GPRS,WAP,http://wap.sunday.com,,10.131.2.1:9201,SGPRS,,
+454,16,,PCCW_MMS,MMS,,http://mmsc.mms.pccwmobile.com:8002/,10.131.2.8:8080,pccwmms,,
+454,16,,SUNDAY MMS,MMS,,http://mmsc.mms.sunday.com:8002/,10.131.2.1:9201,smms,,
+455,1,,CTMGPRS,WAP,http://www.wap.ctm.net,,192.168.99.2:8080,ctm-mobile,,
+455,1,,CTMMMS,MMS,,http://mms.wap.ctm.net:8002,192.168.99.3:8080,ctmmms,,
+455,3,,picturemail Macau,MMS,,http://mms.smartone.com.mo/dmog/mo,10.9.9.29:9201,smartgprs,,
+460,0,,China Mobile GPRS,WAP,http://wap.monternet.com/?cp22=v22monternet,,10.0.0.172:80,cmwap,wap,wap
+460,0,,Monternet GPRS,MMS,,http://mmsc.monternet.com/,10.0.0.172:9201,cmwap,wap,wap
+460,1,,China Unicom GPRS,WAP,http://wap.uni-info.com.cn,,10.0.0.172:80,uniwap,,
+460,1,,China Unicom MMS,MMS,,http://mmsc.myuni.com.cn,10.0.0.172:9201,uniwap,,
+460,2,,China Mobile GPRS,WAP,http://wap.monternet.com/?cp22=v22monternet,,10.0.0.172:80,cmwap,wap,wap
+460,2,,Monternet GPRS,MMS,,http://mmsc.monternet.com/,10.0.0.172:9201,cmwap,wap,wap
+466,1,,Far EasTone,WAP,http://mobile.fetnet.net,,210.241.199.199:8080,fetnet01,,
+466,1,,Far EasTone MMS,MMS,,http://mms,210.241.199.199:8080,fetnet01,,
+466,88,,KG Telecom,WAP,http://mobile.fetnet.net,,210.241.199.199:8080,fetnet01,,
+466,88,,KG Telecom MMS,MMS,,http://mms.kgtmms.net.tw/mms/wapenc,172.28.33.5:8080,kgtmms,,
+466,92,,Chunghwa,WAP,http://wap.emome.net,,10.1.1.1:8080,emome,,
+466,92,,Chunghwa MMS,MMS,,http://mms.emome.net:8002,10.1.1.1:8080,emome,,
+466,93,,Mobeelife,WAP,http://www.mobeelife.net,,192.168.77.5:80,gprs1,gprs,gprs
+466,93,,Mobeelife MMS,MMS,,http://mms.mobeelife.net/mms/wapenc,192.168.77.5:80,gprs1,gprs,gprs
+466,97,,Catch,WAP,http://wap.catch.net.tw/,,10.1.1.2:80,mms,,
+466,97,,Catch MMS,MMS,,http://mms.catch.net.tw,10.1.1.2:80,mms,,
+466,99,,Catch,WAP,http://wap.catch.net.tw/,,10.1.1.2:80,mms,,
+466,99,,Catch MMS,MMS,,http://mms.catch.net.tw,10.1.1.2:80,mms,,
+502,12,,Maxis GPRS,MMS,http://wap.maxis.com.my,http://172.16.74.100:10021/mmsc,202.75.133.49:80,net,maxis,wap
+502,12,,Maxis 3G,MMS,http://wap.maxis.com.my,http://172.16.74.100:10021/mmsc,202.75.133.49:80,unet,maxis,wap
+502,16,,DiGi GPRS,WAP,http://wap.digi.com.my,,203.92.128.188:80,digiwap,digi,digi
+502,16,,DiGi MMS,MMS,,http://mms.digi.com.my/servlets/mms,203.92.128.160:80,digimms,mms,mms
+502,18,,Umobile 3G,WAP,http://wap.u.com.my,,10.30.5.11:8080,my3g,,
+502,18,,Umobile MMS,MMS,,http://10.30.3.11/servlets/mms,10.30.5.11:8080,my3g,,
+502,19,,Celcom GPRS (Postpaid),WAP,http://wap.celcom.net.my,,10.128.1.242:8080,wap.celcom.net.my,,
+502,19,,Celcom GPRS (Prepaid),WAP,http://wap.celcom.net.my,,10.128.1.242:8080,celcom,,
+502,19,,Celcom 3G,WAP,http://3g.celcom.com.my,,10.128.1.242:8080,celcom3g,,
+502,19,,Celcom Postpaid MMS,MMS,,http://mms.celcom.net.my,10.128.1.242:8080,mms.celcom.net.my,,
+502,19,,Celcom Prepaid MMS,MMS,,http://mms.celcom.net.my,10.128.1.242:8080,celcom,,
+502,19,,Celcom 3G MMS,MMS,,http://mms.celcom.net.my ,10.128.1.242:8080,celcom3g,,
+505,1,,Telstra Internet,WAP,http://wap.telstra.com/wap,,10.1.1.181:80,telstra.wap,,
+505,1,,Telstra MMS,MMS,,http://mmsc.telstra.com:8002,10.1.1.180:80,telstra.mms,,
+505,1,,Telstra Imternet,DATA,,,10.1.1.181:80,telstra.wap,,
+505,2,,Optus Zoo,WAP,http://networker.optus.net.au/wap/index.wml,,202.139.83.152:8070,wap.optus.net.au ,,
+505,2,,Virgin WAP,WAP,http://www.virginvibe.com.au/wap,,202.139.83.152:8070,virginwap,,
+505,2,,Optus MMS,MMS,,http://mmsc.optus.com.au:8002/,61.88.190.10:8070,mms,,
+505,2,,Virgin MMS,MMS,,http://mms.virginvibe.com.au:8002/,202.139.83.152:8070,virginmms,,
+505,3,,Vodafone Live!,WAP,http://live.vodafone.com,,10.202.2.60:8080,live.vodafone.com,,
+505,3,,Vodafone PXT,MMS,,http://pxt.vodafone.net.au/pxtsend,10.202.2.60:8080,live.vodafone.com,,
+510,1,,IndosatGPRS ,WAP,http://wap.indosat.com/,,10.19.19.19:8080,indosatgprs,indosat,indosat
+510,1,,IndosatMMS,MMS,,http://mmsc.indosat.com,10.19.19.19:8080,indosatmms,indosat,indosat
+510,1,,SAT-C,DATA,,,,satelindogprs.com,,
+510,8,,AXIS,WAP,http://wap.axisworld.co.id,,10.8.3.8:8080,AXIS,axis,123456
+510,8,,AXISmms,MMS,,http://mmsc.axis,10.8.3.8:8080,AXISmms,axis,123456
+510,10,,Telkomsel WAP,WAP,http://wap.telkomsel.com,,10.1.89.130:8000,telkomsel,wap,wap123
+510,10,,Telkomsel MMS,MMS,,http://mms.telkomsel.com,10.1.89.150:8000,mms,wap,wap123
+510,10,,TELKOMSEL gprs,DATA,,,,telkomsel,wap,wap123
+510,11,,XL-WAP,WAP,http://wap.lifeinhand.com,,202.152.240.50:8080,www.xlgprs.net,xlgprs,proxl
+510,11,,XL-MMS,MMS,,http://mmc.xl.net.id/servlets/mms,202.152.240.50:8080,www.xlmms.net,xlgprs,proxl
+510,11,,XL gprs,DATA,,,,www.xlgprs.net,xlgprs,proxl
+510,21,,IndosatGPRS ,WAP,http://wap.indosat.com/,,10.19.19.19:8080,indosatgprs,indosat,indosat
+510,21,,M3-GPRS,WAP,http://wap.m3-access.com/,,10.19.19.19:8080,www.indosat-m3.net,gprs,im3
+510,21,,IndosatMMS,MMS,,http://mmsc.indosat.com,10.19.19.19:8080,indosatmms,indosat,indosat
+510,21,,M3-MMS,MMS,,http://mmsc.m3-access.com,10.19.19.19:8080,mms.indosat-m3.net,mms,im3
+510,21,,IM3 GPRS,DATA,,,,www.indosat-m3.net,gprs,Im3
+510,89,,3GPRS,WAP,http://wap.three.co.id/,,10.4.0.10:3128,3gprs,3gprs,3gprs
+510,89,,3MMS,MMS,,http://mms.three.co.id,10.4.0.10:3128,3mms,3mms,3mms
+515,2,,myGlobe Connect,WAP,http://www.globe.com.ph/globe.asp,,203.177.42.214:8080,www.globe.com.ph,,
+515,2,,myGlobe MMS,MMS,,http://192.40.100.22:10021/mmsc,192.40.100.20:8080,mms.globe.com.ph,,
+515,3,,Smart GPRS,WAP,http://wap.smart.com.ph,,10.102.61.46:8080,Smart1,,
+515,3,,Smart Internet,WAP,http://wap.smart.com.ph,,10.102.61.46:8080,internet,,
+515,3,,Smart MMS,MMS,,http://10.102.61.238:8002,10.102.61.46:8080,mms,,
+515,5,,SUN WAP GPRS,WAP,http://www.suncellular.com.ph,,202.138.159.78:8080,wap,,
+515,5,,SUN MMS,MMS,,http://mmscenter.suncellular.com.ph,202.138.159.78:8080,mms,,
+520,1,,AIS-WAP-GPRS,WAP,http://wap.mobilelife.co.th,,203.170.229.34:8080,wap,ais,ais
+520,1,,AIS MMS,MMS,,http://mms.mobilelife.co.th,203.170.229.34:8080,multimedia,,
+520,1,,AIS-JAVA-GPRS,DATA,,,,wap,ais,ais
+520,18,,DTAC-WAP-GPRS,WAP,http://wap.djuice.co.th,,203.155.200.133:8080,wap.djuice.co.th,,
+520,18,,DTAC MMS,MMS,,http://mms.dtac.co.th:8002/,203.155.200.133:8080,mms,,
+520,18,,DTAC-JAVA-GPRS,DATA,,,,wap.djuice.co.th,,
+520,99,,TRUE-WAP-GPRS,WAP,http://wap.trueworld.net,,10.4.4.4:8080,wap,true,true
+520,99,,TRUE MMS,MMS,,http://mms.trueworld.net:8002/,10.4.7.39:8080,mms,true,true
+520,99,,TRUE-JAVA-GPRS,DATA,,,10.4.4.4:8080,wap,true,true
+525,1,,IDEAS WAP,WAP,http://www.ideas.singtel.com,,165.21.42.84:8080,e-ideas,65IDEAS,IDEAS
+525,1,,IDEAS MMS,MMS,,http://mms.singtel.com:10021/mmsc,165.21.42.84:8080,e-ideas,65IDEAS,IDEAS
+525,1,,IDEAS WAP GPRS,DATA,,,165.21.42.84:8080,e-ideas,65IDEAS,IDEAS
+525,2,,IDEAS MMS,MMS,,http://mms.singtel.com:10021/mmsc,165.21.42.84:8080,e-ideas,65IDEAS,IDEAS
+525,3,,M1,WAP,http://wap.miworld.com.sg,,172.16.1.23:8081,miworld,65,user123
+525,3,,M1 MMS,MMS,,http://mmsgw:8002,172.16.14.10:8080,miworld,65,user123
+525,3,,M1 GPRS,DATA,,,172.16.1.23:8081,miworld,65,user123
+525,5,,StarHub,WAP,http://gee-select.starhubgee.com.sg/wap,,10.12.1.2:80,shwap,star,hub
+525,5,,Starhub MMS,MMS,,http://mms.starhubgee.com.sg:8002/,10.12.1.80:9201,shmms,star,hub
+525,5,,Starhub GPRS,DATA,,,10.12.1.2:8080,shwap,star,hub
+603,1,,Mobilis WAP,WAP,http://213.140.57.21,,,wap,wap,wap
+603,3,,Nedjmawap,WAP,wap.nedjma.dz,,,nedjmaWAP,wap,wap
+604,0,,GPRS WAP,WAP,http://wap.meditel.ma,,10.0.0.8:8080,wap.meditel.ma,mediwap,mediwap
+604,0,,Internet,WAP,http://www.google.com,,,internet1.meditel.ma,medinet,medinet
+604,0,,GPRS MMS,MMS,,http://mms.meditel.ma:8088/mms,10.8.8.9:9201,mms.meditel.ma,MEDIMMS,MEDIMMS
+604,1,,MobileZone,WAP,http://wap.mobileiam.ma,,212.217.54.133:8080,wap.iamgprs.ma,,
+604,1,,WAP IAM,WAP,http://wap.mobileiam.ma,,212.217.54.133:8080,www.iamgprs1.ma,,
+604,1,,MMS IAM,MMS,,http://mms:8002,10.16.35.50:9201,mmsiam,,
+605,2,,Tunisie telecom MMS,MMS,,http://192.168.0.3:19090/was,192.168.0.2:8080,mms.tn,mms@tt1,mms
+605,3,,Tunisiana MMS,MMS,,http://mmsc.tunisiana.com,10.3.2.100:9201,mms.tunisiana.com,mms,mms
+610,2,,Orange WAP,WAP,http://wap.orangemali.com,,10.109.4.35:8080,wap,wap,wap
+610,2,,Orange WAP GSM,WAP,http://wap.orangemali.com,,10.109.4.35:8080,orangeworld,world,orange
+621,32,,vmms,MMS,,http://172.17.254.2/,172.18.254.5:9200,mms.vmobile,mms,mms
+621,48,,mtn.mms,MMS,,http://10.199.212.8/servlets/mms,10.199.212.2:8080,web.gprs.mtnnigeria.net,web,web
+621,50,,Glowap,WAP,http://wap.gloworld.com,,,glogwap,wap,wap
+621,80,,Glomms,MMS,,http://mms.gloworld.com/mms,10.100.82.4:3130,Glomms,mms,mms
+624,2,,OrangeCM WAP,WAP,http://wap.orangeworld.cm,,192.168.122.101:8080,orangecmgprs,orange,orange
+627,1,,Orange WAP,DATA,,,192.168.17.2:8080,orangeworld,wap,wap
+646,2,,Orange World,WAP,TBC,,10.150.0.115:8080,orangeworld,world,orange
+647,0,,Orange World,WAP,http://wap.orange.re,,192.168.10.100:8080,orangerun,orange,orange
+647,0,,Orange MMS,MMS,,http://mms.orange.re/,192.168.10.200:8080,orange.acte,orange,orange
+647,10,,WAP MOBISUD,WAP,http://wap.mobisud.fr,,192.168.21.7:8080,wap62,,
+647,10,,MMS MOBISUD,MMS,,http://mms62,10.143.156.7:8080,mms62,,
+647,10,,MMS GPRS SFR,MMS,,http://mms,10.0.224.145:8080,mmssfr,mms,mms
+647,10,,WAP GPRS SRR,DATA,,,10.0.224.161:8080,wapsfr,wap,wap
+647,10,,WAP GPRS SFR,DATA,,,10.0.224.161:8080,wapsfr,wap,wap
+647,10,MVNO_FRANCE_MOBISUD,WAP MOBISUD,WAP,http://wap.mobisud.fr,,192.168.21.7:8080,wap62,,
+647,10,MVNO_FRANCE_MOBISUD,MMS MOBISUD,MMS,,http://mms62,10.143.156.7:8080,mms62,,
+655,1,,Vlive!,WAP,http://live.vodafone.com,,196.6.128.12:8080,Vlive,vodacom,vodacom
+655,1,,MMS GPRS,MMS,,http://mmsc.vodacom4me.co.za,196.6.128.13:8080,mms.vodacom.net,,
+655,1,,Vodacom GPRS,DATA,,,196.6.128.12:8080,internet,vodacom,vodacom
+655,2,,VIRGIN_INTERNET_1,WAP,http://www.virginmobile.co.za,,196.31.116.241:8080,vdata,,
+655,2,,VIRGIN_INTERNET_2,WAP,http://www.virginmobile.co.za,,196.31.116.241:9201,vdata,,
+655,2,,Virgin_MMS_1,MMS,,http://mms.virginmobile.co.za,196.31.116.242:8080,vmms,,
+655,2,,Virgin_MMS_2,MMS,,http://mms.virginmobile.co.za,196.31.116.242:9201,vmms,,
+655,7,,GPRS Cell C,WAP,http://www.cellc.co.za/wap,,196.31.116.250:8080,internet,,
+655,7,,CELL C MMS,MMS,,http://mms.cmobile.co.za/,196.31.116.250:8080,mms,,
+655,7,,GPRS_Cell C,DATA,,,196.31.116.250:8080,internet,,
+655,10,,MTN GPRS,WAP,http://www.mtn.co.za,,196.11.240.251:8080,myMTN,mtnwap,mtnwap
+655,10,,MTN MMS,MMS,,http://mms.mtn.co.za/mms/wapenc,196.11.240.241:8080,myMTN,mtnmms,mtnmms
+704,3,,GPRS WAP GT,WAP,http://wap.movistar.com.gt,,10.12.22.1:80,wap.movistar.gt,movistargt,movistargt
+704,3,,MMS GPRS,MMS,,http://mms.movistar.gt,10.12.22.1:80,mms.movistar.gt,movistargt,movistargt
+704,3,,Internet PA,DATA,,,,internet.movistar.pa,movistarpa,movistarpa
+704,30,,GPRS WAP GT,WAP,http://wap.movistar.com.gt,,10.12.22.1:80,wap.movistar.gt,movistargt,movistargt
+704,30,,MMS GPRS,MMS,,http://mms.movistar.gt,10.12.22.1:80,mms.movistar.gt,movistargt,movistargt
+704,30,,Internet PA,DATA,,,,internet.movistar.pa,movistarpa,movistarpa
+706,4,,GPRS WAP SV,WAP,http://wap.movistar.com.sv,,10.12.20.1:80,wap.movistar.sv,movistarsv,movistarsv
+706,4,,MMS GPRS,MMS,,http://mms.movistar.sv,10.12.20.1:80,mms.movistar.sv,movistarsv,movistarsv
+706,40,,GPRS WAP SV,WAP,http://wap.movistar.com.sv,,10.12.20.1:80,wap.movistar.sv,movistarsv,movistarsv
+706,40,,MMS GPRS,MMS,,http://mms.movistar.sv,10.12.20.1:80,mms.movistar.sv,movistarsv,movistarsv
+710,30,,GPRS WAP2 NI,WAP,http://myhomepage,,10.12.23.1:80,wap.movistar.ni,movistarni,movistarni
+710,30,,MMS2 NI,MMS,,http://mms.movistar.ni,10.12.23.1:80,mms.movistar.ni,movistarni,movistarni
+710,30,,Internet PA,DATA,,,,internet.movistar.pa,movistarpa,movistarpa
+710,300,,GPRS WAP2 NI,WAP,http://myhomepage,,10.12.23.1:80,wap.movistar.ni,movistarni,movistarni
+710,300,,MMS2 NI,MMS,,http://mms.movistar.ni,10.12.23.1:80,mms.movistar.ni,movistarni,movistarni
+710,300,,Internet PA,DATA,,,,internet.movistar.pa,movistarpa,movistarpa
+714,2,,GPRS WAP2 PA,WAP,http://wap.movistar.com.pa,,10.12.21.1:80,wap.movistar.pa,movistarpawap,movistarpa
+714,2,,MMS PA,MMS,,http://mms.movistar.pa,10.12.21.1:80,mms.movistar.pa,movistarpamms,movistarpa
+714,2,,Internet PA,DATA,,,,internet.movistar.pa,movistarpa,movistarpa
+714,20,,GPRS WAP2 PA,WAP,http://wap.movistar.com.pa,,10.12.21.1:80,wap.movistar.pa,movistarpawap,movistarpa
+714,20,,MMS PA,MMS,,http://mms.movistar.pa,10.12.21.1:80,mms.movistar.pa,movistarpamms,movistarpa
+714,20,,Internet PA,DATA,,,,internet.movistar.pa,movistarpa,movistarpa
+716,6,,Internet MÃ³vil,WAP,http://myhomepage,,200.4.196.117:8080,wap.movistar.pe,movistar@wap,movistar
+716,6,,movistar MMS,MMS,,http://mmsc.telefonicamovistar.com.pe:8088/mms/,200.4.196.118:8080,mms.movistar.pe,movistar@mms,movistar
+716,6,,movistar Internet,DATA,,,,movistar.pe,movistar@datos,movistar
+722,7,,Movistar EmociÃ³n,WAP,http://wap.movistar.com.ar/,,200.5.68.10:8080,wap.gprs.unifon.com.ar,wap,wap
+722,7,,Movistar MMS,MMS,,http://mms.movistar.com.ar,200.68.32.239:8080,mms.gprs.unifon.com.ar,mms,mms
+722,7,,Movistar Internet JAVA,DATA,,,,internet.gprs.unifon.com.ar,internet,internet
+722,34,,Personal WAP,WAP,http://wap.personal.com.ar,,172.16.0.20:8080,gprs.personal.com,gprs,adgj
+724,2,,TIM WAP FAST,WAP,http://wap.tim.com.br,,200.244.116.65:8080,wap.tim.br,tim,tim
+724,2,,TIM MMS,MMS,,http://mms.tim.br,200.179.66.242:8080,mms.tim.br,tim,tim
+724,2,,TIM CONNECT FAST,DATA,,,,tim.br,tim,tim
+724,3,,TIM WAP FAST,WAP,http://wap.tim.com.br,,200.244.116.65:8080,wap.tim.br,tim,tim
+724,3,,TIM MMS,MMS,,http://mms.tim.br,200.179.66.242:8080,mms.tim.br,tim,tim
+724,3,,TIM CONNECT FAST,DATA,,,,tim.br,tim,tim
+724,4,,TIM WAP FAST,WAP,http://wap.tim.com.br,,200.244.116.65:8080,wap.tim.br,tim,tim
+724,4,,TIM MMS,MMS,,http://mms.tim.br,200.179.66.242:8080,mms.tim.br,tim,tim
+724,4,,TIM CONNECT FAST,DATA,,,,tim.br,tim,tim
+724,5,,Portal Claro,WAP,http://wap.claro.com.br,,200.169.126.11:8799,wap.claro.com.br,claro,claro
+724,5,,Claro Foto,MMS,,http://mms.claro.com.br,200.169.126.10:8799,mms.claro.com.br,claro,claro
+724,5,,Java Session,DATA,,,,java.claro.com.br,claro,claro
+724,6,,Vivo WAP,WAP,http://termwapgsm2.vivo.com.br,,200.142.130.104:80,wap.vivo.com.br,vivo,vivo
+724,6,,Vivo ZAP,WAP,http://www.vivo.com.br/conteudosmartphone,,,zap.vivo.com.br,vivo,vivo
+724,6,,Vivo MMS,MMS,,http://termnat.vivomms.com.br:8088/mms,200.142.130.104:80,mms.vivo.com.br,vivo,vivo
+724,10,,Vivo WAP,WAP,http://termwapgsm2.vivo.com.br,,200.142.130.104:80,wap.vivo.com.br,vivo,vivo
+724,10,,Vivo ZAP,WAP,http://www.vivo.com.br/conteudosmartphone,,,zap.vivo.com.br,vivo,vivo
+724,10,,Vivo MMS,MMS,,http://termnat.vivomms.com.br:8088/mms,200.142.130.104:80,mms.vivo.com.br,vivo,vivo
+724,11,,Vivo WAP,WAP,http://termwapgsm2.vivo.com.br,,200.142.130.104:80,wap.vivo.com.br,vivo,vivo
+724,11,,Vivo ZAP,WAP,http://www.vivo.com.br/conteudosmartphone,,,zap.vivo.com.br,vivo,vivo
+724,11,,Vivo MMS,MMS,,http://termnat.vivomms.com.br:8088/mms,200.142.130.104:80,mms.vivo.com.br,vivo,vivo
+724,16,,BrT WAP 1,WAP,http://wap.brasiltelecom.com.br,,200.96.8.30:8080,wap.brt.br,brt,brt
+724,16,,BrT WAP 2,WAP,http://wap.brasiltelecom.com.br,,,wap.brt.br,brt,brt
+724,16,,BrT MMS,MMS,,http://mms.brasiltelecom.com.br,200.96.8.29:8080,mms.brt.br,brt,brt
+724,23,,Vivo WAP,WAP,http://termwapgsm2.vivo.com.br,,200.142.130.104:80,wap.vivo.com.br,vivo,vivo
+724,23,,Vivo ZAP,WAP,http://www.vivo.com.br/conteudosmartphone,,,zap.vivo.com.br,vivo,vivo
+724,23,,Vivo MMS,MMS,,http://termnat.vivomms.com.br:8088/mms,200.142.130.104:80,mms.vivo.com.br,vivo,vivo
+724,24,,TelemigC WAP,WAP,http://wap.telemigcelular.com.br,,200.192.230.141:8080,wapgprs.telemigcelular.com.br,celular,celular
+724,24,,TelemigC WAP SEGURO,WAP,http://wap.telemigcelular.com.br,,200.192.230.141:8080,wapgprs.telemigcelular.com.br,celular,celular
+724,24,,Vivo MMS,MMS,,http://termnat.vivomms.com.br:8088/mms,200.142.130.104:80,mms.vivo.com.br,vivo,vivo
+724,31,,OI WAP GPRS,WAP,http://wap.oi.com.br,,200.222.108.241:3128,wapgprs.oi.com.br,oiwap,oioioi
+724,31,,MMS GPRS,MMS,,http://200.222.42.204:8002,192.168.10.50:3128,mmsgprs.oi.com.br,oimms,oioioi
+730,1,,i-shop Entel PCS,WAP,http://wap.entelpcs.cl,,10.99.0.10:8080,bam.entelpcs.cl,entelpcs,entelpcs
+730,1,,MMS Entel PCS,MMS,,http://mmsc.entelpcs.cl,10.99.0.10:8080,mms.entelpcs.cl,entelmms,entelpcs
+730,2,,NEM,WAP,http://wap.movistar.cl/,,172.17.8.11:8080,wap.tmovil.cl,wap,wap
+730,2,,MMS,MMS,,http://mms.movistar.cl,172.17.8.10:8080,mms.tmovil.cl,mms,mms
+730,2,,APLICACIONES JAVA,DATA,,,,wap.tmovil.cl,wap,wap
+730,2,,Movistar Internet JAVA,DATA,,,,internet.gprs.unifon.com.ar,internet,internet
+730,2,,mContenidos,DATA,,,172.17.8.11:8080,wap.tmovil.cl,wap,wap
+730,3,,WAP Claro,WAP,http://wap.clarochile.cl,,172.23.200.200:8080,wap.clarochile.cl,clarochile,clarochile
+730,3,,MMS Claro,MMS,,http://mms.clarochile.cl,172.23.200.200:8080,mms.clarochile.cl,clarochile,clarochile
+730,10,,i-shop Entel PCS,WAP,http://wap.entelpcs.cl,,10.99.0.10:8080,bam.entelpcs.cl,entelpcs,entelpcs
+730,10,,MMS Entel PCS,MMS,,http://mmsc.entelpcs.cl,10.99.0.10:8080,mms.entelpcs.cl,entelmms,entelpcs
+732,101,,WAP Comcel 3GSM,WAP,http://www.comcel.com.co/wap/comcel.wml,,198.228.90.228:8799,wap.comcel.com.co,COMCELWAP,COMCELWAP
+732,101,,MMS Comcel 3GSM,MMS,,http://www.comcel.com.co/mms/,198.228.90.225:8799,mms.comcel.com.co,COMCELMMS,COMCELMMS
+732,103,,TIGO Inter@ctivo,WAP,http://wap.tigo.com.co,,200.58.228.81:8080,wap.colombiamovil.com.co,,
+732,103,,TIGO WEB,WAP,http://www.tigo.com.co,,,web.colombiamovil.com.co,,
+732,103,,TIGO Multimedia,MMS,,http://mms.ola.com.co,200.58.228.81:8080,mms.colombiamovil.com.co,mms-cm1900,mms-cm1900
+732,111,,TIGO Inter@ctivo,WAP,http://wap.tigo.com.co,,200.58.228.81:8080,wap.colombiamovil.com.co,,
+732,111,,TIGO WEB,WAP,http://www.tigo.com.co,,,web.colombiamovil.com.co,,
+732,111,,TIGO Multimedia,MMS,,http://mms.ola.com.co,200.58.228.81:8080,mms.colombiamovil.com.co,mms-cm1900,mms-cm1900
+732,123,,Interactivo,WAP,http://wap.movistar.com.co,,192.168.222.7:9001,wap.movistar.com.co,movistar,movistar
+732,123,,NULL,DATA,,,,internet.movistar.com.co,movistar,movistar
+732,123,,Multimedia,MMS,,http://mms.movistar.com.co,192.168.222.7:9001,mms.movistar.com.co,movistar,movistar
+732,123,,COMCEL,DATA,,,,internet.comcel.com.co,COMCELWEB,COMCELWEB
+734,2,,Digitel GSM,WAP,http://gprs.digitel.com.ve,,10.99.0.10:8080,gprs.digitel.ve,,
+734,2,,Digitel WEB,WAP,http://gprs.digitel.com.ve,,,gprsweb.digitel.ve,,
+734,2,,MMS,MMS,,http://mms.412.com.ve/servlets/mms,10.99.0.10:8080,expresate.digitel.ve,,
+734,4,,movistar WAP,WAP,http://interactivo.telcel.net.ve/,,200.35.64.73:9001,wap.movistar.ve,movistar,movistar
+734,4,,movistar MMS,MMS,,http://mms.movistar.com.ve:8088/mms,200.35.64.73:9001,mms.movistar.ve,,
+734,4,,movistar Internet,DATA,,,,internet.movistar.ve,,
+740,0,,movistar WAP,WAP,http://wap.movistar.com.ec,,10.3.5.50:9001,wap.movistar.com.ec,movistar,movistar
+740,0,,movistar MMS,MMS,,http://mms.movistar.com.ec:8088/mms/,10.3.5.50:9001,mms.movistar.com.ec,movistar,movistar
+740,0,,movistar GPRS,DATA,,,,internet.movistar.com.ec,movistar,movistar
+740,0,,movistar wap,DATA,,,10.3.5.50:9001,wap.movistar.com.ec,movistar,movistar
+748,7,,Movistar EmociÃ³n,WAP,http://wap.movistar.com.uy,,200.5.68.10:8080,apnwap.movistar.com.uy,wapuy,wapuy
+748,7,,FOTOS MMS,MMS,,http://mmsc.movistar.com.uy,10.0.2.29:8080,apnmms.movistar.com.uy,mmsuy,mmsuy
+748,7,,Movistar Internet JAVA,DATA,,,,webapn.movistar.com.uy,movistar,movistar
+1111,0,,Bouygtel Universal MMS,MMS,,http://wap.universalmobile.fr,62.201.137.17:9201,mmsbouygtel.com,,

@@ -1,4 +1,27 @@
+include "/etc/osmocom/operator-proxies.nft"
+
+define PROXY_HOSTS_ADDRESS = 192.0.2.1
+define MMSC_HOSTS_ADDRESS = 192.0.2.2
+
 table ip gprs {
+	set operator_proxies {
+		type ipv4_addr
+		elements = { $OPERATOR_PROXIES, $PROXY_HOSTS_ADDRESS }
+	}
+
+	set operator_mmscs {
+		type ipv4_addr
+		elements = { $OPERATOR_MMSCS, $MMSC_HOSTS_ADDRESS }
+	}
+
+	chain prerouting {
+		type nat hook prerouting priority dstnat;
+		iifname "apn0" meta l4proto { tcp, udp } th dport 53 redirect to :53
+		iifname "apn0" ip daddr @operator_mmscs meta l4proto tcp redirect to :8002
+		iifname "apn0" ip daddr @operator_proxies meta l4proto tcp redirect to :3128
+		iifname "apn0" udp dport { 9200, 9201 } redirect
+	}
+
 	chain postrouting {
 		type nat hook postrouting priority srcnat;
 		ip saddr 172.16.32.0/24 oifname "eth0" masquerade

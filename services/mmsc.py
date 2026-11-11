@@ -4,7 +4,9 @@
 Phones post m-send-req to this server. The MMSC stores the message, answers
 with m-send-conf and notifies every recipient with an m-notification-ind WAP
 push. The recipient fetches the stored m-retrieve-conf over HTTP GET. The
-sender address is taken from the PDP context of the client IP address.
+sender address is taken from the PDP context of the phone IP address: the
+client address, the last X-Forwarded-For address of requests through the local
+Squid, or X-WAP-Network-Client-IP of requests from the local wapbox.
 """
 
 import http.server
@@ -17,6 +19,7 @@ import uuid
 from osmocom import GGSN_VTY_PORT, HLR_VTY_PORT, send_wap_push, vty_command
 
 LISTEN = ("0.0.0.0", 8002)
+LOCAL_GATEWAY = "127.0.0.1"
 BASE_URL = "http://172.16.32.1:8002/"
 STORE_DIR = "/var/lib/mmsc"
 EXPIRY_S = 7 * 24 * 3600
@@ -158,6 +161,15 @@ def store(request, sender):
 
 
 class Handler(http.server.BaseHTTPRequestHandler):
+    def phone_ip(self):
+        client = self.client_address[0]
+        if client != LOCAL_GATEWAY:
+            return client
+        forwarded = self.headers["X-Forwarded-For"].split(",")[-1].strip()
+        if forwarded != LOCAL_GATEWAY:
+            return forwarded
+        return self.headers["X-WAP-Network-Client-IP"]
+
     def reply(self, body=b""):
         self.send_response(200)
         self.send_header("Content-Type", MMS_CONTENT_TYPE)
@@ -179,7 +191,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
             self.reply()
             return
 
-        sender = msisdn_for_ip(self.client_address[0])
+        sender = msisdn_for_ip(self.phone_ip())
         message_id, transaction_id, recipients, size = store(request, sender)
         self.reply(bytes([FIELD_MESSAGE_TYPE, MESSAGE_SEND_CONF, FIELD_TRANSACTION_ID]) + transaction_id +
                    bytes([FIELD_MMS_VERSION, MMS_VERSION_1_2, FIELD_RESPONSE_STATUS, RESPONSE_STATUS_OK,

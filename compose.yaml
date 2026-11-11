@@ -63,6 +63,21 @@ services:
     volumes:
       - ./services:/opt/services:ro
       - mmsc-state:/var/lib/mmsc
+  squid:
+    <<: *osmocom
+    command: squid -N -d 1 -f /etc/osmocom/squid.conf
+  dns:
+    <<: *osmocom
+    command: >-
+      sh -c 'sed -n "s|^[^#].*|address=/&/192.0.2.1|p" /etc/osmocom/operator-proxy-hosts.txt > /run/dnsmasq-operators.conf
+      && sed -n "s|^[^#].*|address=/&/192.0.2.2|p" /etc/osmocom/operator-mmsc-domains.txt >> /run/dnsmasq-operators.conf
+      && exec dnsmasq -k -C /etc/osmocom/dnsmasq.conf'
+  bearerbox:
+    <<: *osmocom
+    command: bearerbox /etc/osmocom/kannel.conf
+  wapbox:
+    <<: *osmocom
+    command: wapbox /etc/osmocom/kannel.conf
   sgsn:
     <<: *osmocom
     command: sh -c 'python3 /opt/services/render_config.py sgsn /run/osmo-sgsn.cfg && exec osmo-sgsn -c /run/osmo-sgsn.cfg'
