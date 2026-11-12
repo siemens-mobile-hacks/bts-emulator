@@ -59,9 +59,9 @@ Limits per client address: 2 connections, 20 connection attempts a minute,
 uplink of more than 20 KB/s over 10 seconds bans the address for 182 days.
 The gateway takes 100 connections at once.
 
-A phone reaches the Internet on the usual TCP ports of web, Opera Mini, mail
-reading, ICQ and Jabber, operator proxies and MMS centers on any port, DNS and
-WAP over UDP, and ping. Mail submission (SMTP), private addresses and other
+A phone reaches the Internet on any TCP port (`GPRS_GW_TCP_PORTS` can narrow
+that to a list), operator proxies and MMS centers, DNS and WAP over UDP, and
+ping. Mail submission (SMTP), private addresses and other
 UDP are refused by both the gateway and `nat.nft`; the gateway also drops
 IPv6 and IP fragments. A
 phone opens at most 120 connections a minute to 200 hosts an hour, and its
