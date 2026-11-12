@@ -54,10 +54,21 @@ host name:
 GPRS_GW_VIRTUAL_HOST=emu.example.org docker compose -f compose.yaml -f compose.web.yaml up -d
 ```
 
-Limits per client address: 2 connections, 50 MB a day, 10 KB/s downlink. An
-emulator's GPRS sends about 1 KB/s; an uplink of more than 20 KB/s over 10
-seconds bans the address for 182 days. Settings are the `GPRS_GW_*` lines of
-`.env.default`; bans are kept in the `gprs-gw-state` volume.
+Limits per client address: 2 connections, 20 connection attempts a minute,
+50 MB a day, 10 KB/s downlink. An emulator's GPRS sends about 1 KB/s; an
+uplink of more than 20 KB/s over 10 seconds bans the address for 182 days.
+The gateway takes 100 connections at once.
+
+A phone reaches the Internet on the usual TCP ports of web, Opera Mini, mail
+reading, ICQ and Jabber, operator proxies and MMS centers on any port, DNS and
+WAP over UDP, and ping. Mail submission (SMTP), private addresses and other
+UDP are refused by both the gateway and `nat.nft`; the gateway also drops
+IPv6 and IP fragments. A
+phone opens at most 120 connections a minute to 200 hosts an hour, and its
+slirp has 64 sockets, cannot fork and runs without privileges.
+
+Settings are the `GPRS_GW_*` lines of `.env.default`; bans are kept in the
+`gprs-gw-state` volume.
 
 ## Configuration
 

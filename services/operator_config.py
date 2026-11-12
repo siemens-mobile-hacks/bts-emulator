@@ -3,6 +3,7 @@
 
   operator-proxies.nft       nftables defines OPERATOR_PROXIES and OPERATOR_MMSCS with proxy and MMSC IPv4 addresses
   operator-proxy-hosts.txt   proxy host names, one per line
+  operator-proxy-ips.txt     proxy IPv4 addresses, one per line
   operator-mmsc-domains.txt  MMSC host names, one per line
   operator-mmsc-ips.txt      MMSC IPv4 addresses, one per line
 
@@ -79,6 +80,7 @@ def main():
     stack.write(os.path.join(output_dir, "operator-proxies.nft"),
                 nft_define("OPERATOR_PROXIES", proxy_ips) + nft_define("OPERATOR_MMSCS", mmsc_ips))
     write_lines(os.path.join(output_dir, "operator-proxy-hosts.txt"), proxy_names)
+    write_lines(os.path.join(output_dir, "operator-proxy-ips.txt"), proxy_ips)
     write_lines(os.path.join(output_dir, "operator-mmsc-domains.txt"), mmsc_names)
     write_lines(os.path.join(output_dir, "operator-mmsc-ips.txt"), mmsc_ips)
 

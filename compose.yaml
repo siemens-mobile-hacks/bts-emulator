@@ -93,7 +93,7 @@ services:
       - /dev/net/tun
   gprs-gw:
     <<: *osmocom
-    command: node /opt/gprs-gw/server.mjs
+    command: sh -c "python3 /opt/services/operator_config.py /run/operators && exec node /opt/gprs-gw/server.mjs"
     volumes:
       - ./gprs-gw:/opt/gprs-gw:ro
       - gprs-gw-state:/var/lib/gprs-gw

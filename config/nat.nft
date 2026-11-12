@@ -40,13 +40,15 @@ table ip gprs {
 		meta skuid $GPRS_GW_UID udp dport { 9200, 9201 } redirect
 	}
 
-	# and nothing else of it goes anywhere but the Internet
+	# and nothing else of it goes anywhere but the Internet, without mail
+	# submission or UDP but WAP (gprs-gw filters the same itself)
 	chain output_filter {
 		type filter hook output priority filter;
 		meta skuid != $GPRS_GW_UID accept
 		ct status dnat accept
 		ip daddr 172.16.32.1 tcp dport 8002 accept
-		tcp dport { 25, 465, 587 } reject
+		tcp dport { 25, 465, 587, 2525 } reject
+		udp dport != 9200-9203 reject
 		ip daddr {
 			0.0.0.0/8, 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16,
 			172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.168.0.0/16, 198.18.0.0/15,

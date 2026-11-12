@@ -5,7 +5,8 @@
  * bytes big-endian. The network is QEMU's -netdev user: the phone is
  * 10.0.2.15, the gateway 10.0.2.2, DNS 10.0.2.3. The gateway does not reach
  * the host's loopback unless SLIRP_HOST_LOOPBACK=1 (for tests). Exits when
- * stdin closes.
+ * stdin closes. It may not fork, gain privileges or dump core, and has
+ * SOCKETS_MAX connections at once.
  */
 #include <errno.h>
 #include <fcntl.h>
@@ -19,10 +20,13 @@
 #include <unistd.h>
 
 #include <arpa/inet.h>
+#include <sys/prctl.h>
+#include <sys/resource.h>
 #include <slirp/libslirp.h>
 
 #define FRAME_MAX 1514
 #define POLL_MAX 1024
+#define SOCKETS_MAX 64
 
 struct timer {
     SlirpTimerId id;
@@ -199,6 +203,16 @@ static void read_stdin(void)
     in_len -= at;
 }
 
+static void limit(int resource, rlim_t value)
+{
+    struct rlimit r = { value, value };
+
+    if (setrlimit(resource, &r)) {
+        perror("slirp-pipe: setrlimit");
+        exit(1);
+    }
+}
+
 int main(void)
 {
     SlirpConfig cfg = {
@@ -209,6 +223,16 @@ int main(void)
         .disable_host_loopback = !(getenv("SLIRP_HOST_LOOPBACK") &&
                                    !strcmp(getenv("SLIRP_HOST_LOOPBACK"), "1")),
     };
+
+    /* stdin, stdout and stderr are three of the descriptors */
+    limit(RLIMIT_NOFILE, SOCKETS_MAX + 3);
+    limit(RLIMIT_NPROC, 0);
+    limit(RLIMIT_CORE, 0);
+    limit(RLIMIT_AS, 256 << 20);
+    if (prctl(PR_SET_NO_NEW_PRIVS, 1, 0, 0, 0)) {
+        perror("slirp-pipe: no_new_privs");
+        exit(1);
+    }
 
     inet_pton(AF_INET, "10.0.2.0", &cfg.vnetwork);
     inet_pton(AF_INET, "255.255.255.0", &cfg.vnetmask);
