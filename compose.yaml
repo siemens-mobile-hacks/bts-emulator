@@ -26,6 +26,7 @@ services:
       net.ipv4.ip_forward: 1
     ports:
       - ${TRXMUX_ADDRESS:-127.0.0.1}:${TRXMUX_PORT:-5750}:5750/udp
+      - ${GPRS_GW_ADDRESS:-127.0.0.1}:${GPRS_GW_PORT:-5751}:5751/tcp
     volumes:
       - ./config:/etc/osmocom:ro
       - ./services:/opt/services:ro
@@ -90,6 +91,13 @@ services:
       - NET_ADMIN
     devices:
       - /dev/net/tun
+  gprs-gw:
+    <<: *osmocom
+    command: node /opt/gprs-gw/server.mjs
+    volumes:
+      - ./gprs-gw:/opt/gprs-gw:ro
+      - gprs-gw-state:/var/lib/gprs-gw
 
 volumes:
   mmsc-state:
+  gprs-gw-state:

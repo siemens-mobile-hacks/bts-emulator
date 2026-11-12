@@ -37,6 +37,28 @@ Manual settings:
 | MMS center | `http://172.16.32.1:8002/` |
 | MMS proxy | none |
 
+## Emulators in a browser
+
+The web emulator runs the GSM cell inside the page and sends the phone's GPRS
+to `gprs-gw` over a WebSocket at `/gprs`: every connected phone gets a slirp of
+its own (`gprs-gw/slirp-pipe.c`), the network of QEMU's `-netdev user`
+(phone 10.0.2.15, DNS 10.0.2.3). DNS, WAP, operator proxies and MMS centers go
+to the same dnsmasq, Kannel, squid and MMSC as above, so operator settings work
+unchanged; anything else private is refused (`config/nat.nft`).
+
+The gateway listens on `GPRS_GW_ADDRESS:GPRS_GW_PORT`. Behind
+[perk11/nginx-proxy](https://github.com/perk11/nginx-proxy), on the page's
+host name:
+
+```sh
+GPRS_GW_VIRTUAL_HOST=emu.example.org docker compose -f compose.yaml -f compose.web.yaml up -d
+```
+
+Limits per client address: 2 connections, 50 MB a day, 10 KB/s downlink. An
+emulator's GPRS sends about 1 KB/s; an uplink of more than 20 KB/s over 10
+seconds bans the address for 182 days. Settings are the `GPRS_GW_*` lines of
+`.env.default`; bans are kept in the `gprs-gw-state` volume.
+
 ## Configuration
 
 Settings are in `.env.default`.
