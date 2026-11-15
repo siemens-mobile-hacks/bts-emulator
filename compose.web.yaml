@@ -1,0 +1,19 @@
+# The GPRS gateway behind perk11/nginx-proxy, on the emulator page's host:
+# the page connects to wss://<host>/gprs.
+#
+#   GPRS_GW_VIRTUAL_HOST=emu.example.org docker compose -f compose.yaml -f compose.web.yaml up -d
+#
+# Set GPRS_GW_TRUSTED_PROXIES=1 and GPRS_GW_ORIGINS=https://emu.example.org in .env.
+services:
+  net:
+    networks:
+      - default
+      - nginx-proxy
+    environment:
+      VIRTUAL_HOST: ${GPRS_GW_VIRTUAL_HOST:?the emulator page's host name}
+      VIRTUAL_PATH: /gprs
+      VIRTUAL_PORT: "5751"
+
+networks:
+  nginx-proxy:
+    external: true

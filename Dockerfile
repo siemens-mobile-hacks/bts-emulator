@@ -17,8 +17,16 @@ RUN apt-get install --no-install-recommends -y dpkg-dev \
 	&& patch -p1 < ../osmo-sgsn-llc-ui-command.patch \
 	&& DEB_BUILD_OPTIONS="nocheck nodoc" dpkg-buildpackage -b -uc -us
 
+FROM osmocom AS slirp-pipe
+
+WORKDIR /build
+COPY gprs-gw/slirp-pipe.c .
+RUN apt-get install --no-install-recommends -y gcc libc6-dev libslirp-dev pkg-config \
+	&& gcc -O2 -o slirp-pipe slirp-pipe.c $(pkg-config --cflags --libs slirp)
+
 FROM osmocom
 
+COPY --from=slirp-pipe /build/slirp-pipe /usr/local/bin/
 COPY --from=osmo-sgsn /build/osmo-sgsn_*.deb /tmp/
-RUN apt-get install --no-install-recommends -y osmo-bsc osmo-bts-trx osmo-cbc osmo-ggsn osmo-hlr osmo-mgw osmo-msc osmo-pcu osmo-stp libwbxml2-utils nftables python3 squid dnsmasq-base kannel /tmp/osmo-sgsn_*.deb \
+RUN apt-get install --no-install-recommends -y osmo-bsc osmo-bts-trx osmo-cbc osmo-ggsn osmo-hlr osmo-mgw osmo-msc osmo-pcu osmo-stp libwbxml2-utils nftables python3 squid dnsmasq-base kannel nodejs node-ws libslirp0 /tmp/osmo-sgsn_*.deb \
 	&& rm -rf /tmp/*.deb /var/lib/apt/lists/*
